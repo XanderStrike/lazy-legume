@@ -1,6 +1,8 @@
 require 'rss'
 require 'open-uri'
 
+DOWNLOAD_LOCATION = 'torrents'
+
 class Rule
   attr :title, :quality
 
@@ -36,6 +38,10 @@ class Episode
   def to_s
     "Season #{@season} Episode #{@ep_in_season} - #{@name}"
   end
+
+  def download
+    `wget #{@link} -O #{DOWNLOAD_LOCATION}/#{name.gsub(' ', '.')}.torrent`
+  end
 end
 
 def parse f, r
@@ -60,7 +66,9 @@ rules = [
   Rule.new('World Poker Tour', 'x264'),
 ]
 
-# puts Rule.to_regex(rules)
 episodes = parse(ARGV.first, Rule.to_regex(rules))
+episodes.each do |ep|
+  ep.download
+end
 
 puts episodes
