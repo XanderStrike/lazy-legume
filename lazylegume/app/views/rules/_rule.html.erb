@@ -1,0 +1,13 @@
+<%= form_for rule, remote: true do |f| %>
+  <%= f.hidden_field :show_id, value: show.id %>
+  <table class="table">
+    <tr>
+      <td>Regex:</td>
+      <td><%= f.text_field :regex, class: 'form-control' %></td>
+      <td><%= f.submit 'Save', class: 'btn btn-inverse' %>
+      <% if rule.id %>
+        <td><%= link_to 'Destroy', rule, class: 'btn btn-danger', method: :delete, remote: true, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+    </tr>
+  </table>
+<% end %>

@@ -11,11 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150322222050) do
+ActiveRecord::Schema.define(version: 20150322223432) do
 
   create_table "feeds", force: true do |t|
     t.string   "name"
     t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "rules", force: true do |t|
+    t.string   "regex"
+    t.integer  "show_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,9 +1,11 @@
 <p id="notice"><%= notice %></p>
+<h1><%= @show.name %></h1>
 
-<p>
-  <strong>Name:</strong>
-  <%= @show.name %>
-</p>
-
+<legend>Rules</legend>
+<div id="rules-area">
+  <%= render partial: 'rules/rules_list', locals: { show: @show } %>
+</div>
+<%= link_to 'Add Rule', new_rule_path(show: @show.id), class: 'btn btn-success', remote: true %>
+<br><br>
 <%= link_to 'Edit', edit_show_path(@show) %> |
 <%= link_to 'Back', shows_path %>

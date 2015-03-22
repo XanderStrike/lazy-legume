@@ -1,0 +1,4 @@
+<% show.rules.each do |rule| %>
+  <div id="rules-notice"></div>
+  <%= render partial: 'rules/rule', locals: { rule: rule, show: show } %>
+<% end %>
