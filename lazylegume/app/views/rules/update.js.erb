@@ -1,2 +1,2 @@
 $('#rules-area').html('<%=j render partial: "rules/rules_list", locals: { show: @show, rule: @rule } %>');
-$('#rules-notice').html('<span class="alert alert-success">Rule updated.</span>')
+$('#rules-notice').html('<%=j bootstrap_alert("success", "Rule updated.").html_safe %>')
