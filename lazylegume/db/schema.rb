@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20150322223432) do
   create_table "rules", force: true do |t|
     t.string   "regex"
     t.integer  "show_id"
+    t.integer  "feed_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

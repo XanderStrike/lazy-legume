@@ -3,6 +3,7 @@ class Rule < ActiveRecord::Migration
     create_table :rules do |t|
       t.string :regex
       t.integer :show_id
+      t.integer :feed_id
 
       t.timestamps
     end

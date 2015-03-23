@@ -36,6 +36,6 @@ class RulesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def show_params
-      params.require(:rule).permit(:regex, :show_id)
+      params.require(:rule).permit(:regex, :show_id, :feed_id)
     end
 end
