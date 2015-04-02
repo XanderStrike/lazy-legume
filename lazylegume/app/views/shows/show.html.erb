@@ -1,12 +1,11 @@
+<h1><%= @show.name %></h1>
 <span class="pull-right">
-<h3>
-  <%= link_to '<span class="fui-new"></span>'.html_safe, edit_show_path(@show) %>
-  <%= link_to '<span class="fui-arrow-left"></span>'.html_safe, shows_path %>
-  </h3>
+  <%= link_to 'Edit'.html_safe, edit_show_path(@show) %> |
+  <%= link_to 'Shows'.html_safe, shows_path %> |
+  <%= link_to 'Home', root_url %>
 </span>
 
 <p id="notice"><%= notice %></p>
-<h1><%= @show.name %></h1>
 
 <legend>Rules</legend>
 <div id="rules-area">

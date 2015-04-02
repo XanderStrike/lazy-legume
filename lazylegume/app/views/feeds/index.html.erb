@@ -1,11 +1,11 @@
 <h1>Listing feeds</h1>
+<span class="pull-right"><%= link_to 'Home', root_url %></span>
 
 <table class="table">
   <thead>
     <tr>
       <th>Name</th>
       <th>Url</th>
-      <th></th>
       <th></th>
       <th></th>
     </tr>
@@ -16,7 +16,6 @@
       <tr>
         <td><%= feed.name %></td>
         <td><%= feed.url %></td>
-        <td><%= link_to 'Show', feed %></td>
         <td><%= link_to 'Edit', edit_feed_path(feed) %></td>
         <td><%= link_to 'Destroy', feed, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
