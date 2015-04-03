@@ -1,3 +1,4 @@
 *.torrent
 *.log
+*.sqlite3
 tmp
