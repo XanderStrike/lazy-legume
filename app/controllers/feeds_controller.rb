@@ -18,12 +18,12 @@ class FeedsController < ApplicationController
   def create
     @feed = Feed.new(feed_params)
     @feed.save
-    redirect_to @feed, notice: 'Feed was successfully created.'
+    redirect_to feeds_url, notice: 'Feed was successfully created.'
   end
 
   def update
     @feed.update(feed_params)
-    redirect_to @feed, notice: 'Feed was successfully updated.'
+    redirect_to feeds_url, notice: 'Feed was successfully updated.'
   end
 
   def destroy
