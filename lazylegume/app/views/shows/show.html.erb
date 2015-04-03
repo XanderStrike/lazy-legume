@@ -8,7 +8,7 @@
 <p id="notice"><%= notice %></p>
 
 <legend>Rules</legend>
-<div id="rules-area">
+<div id="js-rules-area">
   <%= render partial: 'rules/rules_list', locals: { show: @show } %>
 </div>
 <%= link_to 'Add Rule', new_rule_path(show: @show.id), class: 'btn btn-inverse', remote: true %>

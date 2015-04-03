@@ -1,0 +1,2 @@
+$('#js-rules-area').html('<%=j render partial: "rules/rules_list", locals: { show: @show, rule: @rule } %>');
+$('#js-<%= @rule.id %>-test-area').html('<%=j render partial: "rules/test", locals: { episodes: @found_eps } %>');

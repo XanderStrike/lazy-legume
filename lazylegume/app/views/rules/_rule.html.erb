@@ -5,6 +5,7 @@
     <td><%= f.text_field :regex, class: 'form-control', placeholder: 'Regex' %></td>
     <td><%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, {class: 'form-control'} %>
     <td width="10%"><%= f.submit 'Save', class: 'btn btn-inverse' %></td>
+    <td width="10%"><%= f.submit 'Test', class: 'btn', data: { disable_with: 'Loading...' } %></td>
     <% if rule.id %>
       <td width="10%"><%= link_to 'Destroy', rule, class: 'btn btn-danger', method: :delete, remote: true, data: { confirm: 'Are you sure?' } %></td>
     <% else %>
@@ -13,3 +14,4 @@
   </tr>
   </table>
 <% end %>
+<div id='js-<%= rule.id %>-test-area'></div>
