@@ -2,15 +2,19 @@ require 'rss'
 
 class ScanRSS
   class << self
-    def find_episodes f, r
-      filter_valid_episodes(build_episodes(parse(f, r)))
+    def find_for_rule rule
+      find_episodes(rule.feed.url, /#{rule.regex}/i)
     end
 
-    def parse f, r
-      feed = RSS::Parser.parse(get_xml(f))
+    def find_episodes feed, regex
+      filter_valid_episodes(build_episodes(parse(feed, regex)))
+    end
+
+    def parse feed, regex
+      feed = RSS::Parser.parse(get_xml(feed))
       [].tap do |results|
         feed.items.each do |item|
-          unless item.title.scan(r).empty?
+          unless item.title.scan(regex).empty?
             results << item
           end
         end

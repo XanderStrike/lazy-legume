@@ -7,10 +7,21 @@ RSpec.describe ScanRSS, :type => :model do
   let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
   let(:items) { ScanRSS.parse('test_url', //) }
 
+  describe '#find_for_rule' do
+    it 'calls the necessary methods' do
+      rule = build(:rule_with_feed_and_show)
+      expect(ScanRSS).to receive(:find_episodes).with(rule.feed.url, /#{rule.regex}/i)
+
+      ScanRSS.find_for_rule(rule)
+    end
+  end
 
   describe '#find_episodes' do
     it 'calls the necessary methods' do
-      ScanRSS.find_episodes('test_url', /computer/i)
+      expect(ScanRSS).to receive(:filter_valid_episodes)
+      expect(ScanRSS).to receive(:build_episodes)
+      expect(ScanRSS).to receive(:parse)
+      ScanRSS.find_episodes('test_url', //)
     end
   end
 
