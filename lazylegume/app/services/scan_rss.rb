@@ -32,7 +32,7 @@ class ScanRSS
     private
 
     def get_xml feed
-      @xml || @xml = open(feed)
+      open(feed)
     end
   end
 end

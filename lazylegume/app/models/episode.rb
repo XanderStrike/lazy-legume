@@ -6,6 +6,8 @@ class Episode < ActiveRecord::Base
 
   before_validation :parse_season_code
 
+  belongs_to :show
+
   def parse_season_code
     return unless season.blank? || ep_in_season.blank?
     code = self.name.scan(/S\d{2}E\d{2}/i).tap {|c| return if c.empty? }.first.scan(/\d{2}/)
