@@ -1,0 +1,1987 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 404 Not Found in 3ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 02 Apr 2015 04:23:57 UTC +00:00], ["updated_at", Thu, 02 Apr 2015 04:23:57 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (0.1ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 3ms
+  [1m[36m (1.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "shows" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 02 Apr 2015 04:24:11 UTC +00:00], ["updated_at", Thu, 02 Apr 2015 04:24:11 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (0.1ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 404 Not Found in 3ms
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 02 Apr 2015 04:24:23 UTC +00:00], ["updated_at", Thu, 02 Apr 2015 04:24:23 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "feeds" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 02 Apr 2015 04:24:35 UTC +00:00], ["updated_at", Thu, 02 Apr 2015 04:24:35 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by FeedsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (0.1ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered feeds/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+  Rendered shows/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+  Rendered shows/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateEpisode (20150402042915)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "episodes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "season" integer, "ep_in_season" integer, "link" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150402042915"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:38:00 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:38:00 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:38:02 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:38:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:38:15 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:38:15 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFeeds (20150322221938)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "feeds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322221938"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateShows (20150322222050)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "shows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322222050"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to Rule (20150322223432)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "rules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "regex" varchar(255), "show_id" integer, "feed_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150322223432"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateEpisode (20150402042915)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "episodes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "season" integer, "ep_in_season" integer, "link" varchar(255), "show_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150402042915"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "episodes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "season" integer, "ep_in_season" integer, "link" varchar(255), "show_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "feeds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "url" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "rules" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "regex" varchar(255), "show_id" integer, "feed_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "shows" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150402042915')
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150322221938')[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150322222050')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150322223432')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:39:18 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:39:18 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["ep_in_season", 68], ["link", "https://lolztracker.com/download.php?id=50"], ["name", "Show 1 S95E68"], ["season", 95], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["ep_in_season", 37], ["link", "https://lolztracker.com/download.php?id=100"], ["name", "Show 2 S64E37"], ["season", 64], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["ep_in_season", 98], ["link", "https://lolztracker.com/download.php?id=150"], ["name", "Show 3 S88E98"], ["season", 88], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["ep_in_season", 79], ["link", "https://lolztracker.com/download.php?id=200"], ["name", "Show 4 S55E79"], ["season", 55], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00], ["ep_in_season", 27], ["link", "https://lolztracker.com/download.php?id=250"], ["name", "Show 5 S28E27"], ["season", 28], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:39:47 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["ep_in_season", 37], ["link", "https://lolztracker.com/download.php?id=50"], ["name", "Show 1 S61E37"], ["season", 61], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["ep_in_season", 20], ["link", "https://lolztracker.com/download.php?id=100"], ["name", "Show 2 S28E20"], ["season", 28], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["ep_in_season", 17], ["link", "https://lolztracker.com/download.php?id=150"], ["name", "Show 3 S90E17"], ["season", 90], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["ep_in_season", 43], ["link", "https://lolztracker.com/download.php?id=200"], ["name", "Show 4 S60E43"], ["season", 60], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00], ["ep_in_season", 4], ["link", "https://lolztracker.com/download.php?id=250"], ["name", "Show 5 S94E04"], ["season", 94], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["ep_in_season", 84], ["link", "https://lolztracker.com/download.php?id=50"], ["name", "Show 1 S30E84"], ["season", 30], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["ep_in_season", 52], ["link", "https://lolztracker.com/download.php?id=100"], ["name", "Show 2 S47E52"], ["season", 47], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["ep_in_season", 40], ["link", "https://lolztracker.com/download.php?id=150"], ["name", "Show 3 S01E40"], ["season", 1], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["ep_in_season", 32], ["link", "https://lolztracker.com/download.php?id=200"], ["name", "Show 4 S66E32"], ["season", 66], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00], ["ep_in_season", 1], ["link", "https://lolztracker.com/download.php?id=250"], ["name", "Show 5 S68E01"], ["season", 68], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:40:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mEpisode Load (0.1ms)[0m  [1mSELECT "episodes".* FROM "episodes" WHERE "episodes"."show_id" = ?[0m  [["show_id", 1]]
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:41:29 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:41:29 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:41:29 UTC +00:00], ["ep_in_season", 83], ["link", "https://lolztracker.com/download.php?id=50"], ["name", "Show 1 S29E83"], ["season", 29], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:41:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:41:40 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:41:40 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "episodes" ("created_at", "ep_in_season", "link", "name", "season", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:41:40 UTC +00:00], ["ep_in_season", 97], ["link", "https://lolztracker.com/download.php?id=50"], ["name", "Episode 1 S88E97"], ["season", 88], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 02:41:40 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:43:23 UTC +00:00], ["regex", /Show 1/i], ["updated_at", Fri, 03 Apr 2015 02:43:23 UTC +00:00]]
+TypeError: can't cast Regexp to string: INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:43:40 UTC +00:00], ["regex", "Show \#{n}"], ["updated_at", Fri, 03 Apr 2015 02:43:40 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:43:54 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:43:54 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:51:44 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:51:44 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:51:44 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:51:44 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:51:50 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:51:50 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:51:50 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:51:50 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:53:53 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:53:53 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:53:53 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:53:53 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:54:06 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:54:06 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:54:06 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:54:06 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:54:21 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:54:21 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:54:21 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:54:21 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:54:57 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:54:57 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:54:57 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:54:57 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 02:55:35 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 02:55:35 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 02:55:35 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 02:55:35 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by RulesController#new as HTML
+Completed 404 Not Found in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:24:24 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:24:24 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as HTML
+  Parameters: {"show"=>"1"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 9ms
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:25:08 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:25:08 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:26:07 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:26:07 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:26:10 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:26:10 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as HTML
+  Parameters: {"rule"=>{"show_id"=>"1", "regex"=>"test regex", "feed"=>"1"}, "commit"=>"Save"}
+Unpermitted parameters: feed
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:30:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 500 Internal Server Error in 21ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed"=>1}, "commit"=>"Save"}
+Unpermitted parameters: feed
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:31:15 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 3.5ms | ActiveRecord: 0.4ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:31:32 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:31:32 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed"=>1}, "commit"=>"Save"}
+Unpermitted parameters: feed
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:32:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed"=>1}, "commit"=>"Save"}
+Unpermitted parameters: feed
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:32:24 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed"=>1}, "commit"=>"Save"}
+Unpermitted parameters: feed
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:32:29 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:32:42 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 18ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:32:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 15ms (Views: 3.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:33:03 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:45:30 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/create.js.erb (0.2ms)
+Completed 200 OK in 14ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 0.5ms)
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:45:36 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:47:48 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rules/test.js.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 4.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:48:04 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rules/test.js.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:48:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rules/test.js.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 3.9ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:48:34 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered rules/test.js.erb (0.2ms)
+Completed 200 OK in 34ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["name", "Show 3"], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:48:59 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 24ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rules"
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:52:49 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/update.js.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.8ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rules"
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/update.js.erb (0.2ms)
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:53:05 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rules"
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/update.js.erb (0.2ms)
+Completed 200 OK in 11ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:53:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rules"
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:53:27 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/update.js.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:53:42 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:53:42 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:53:42 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:53:42 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["feed_id", 1], ["regex", "Show 1"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>2, "regex"=>"(computer|restaurant)", "feed_id"=>2}, "commit"=>"Test", "id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mShow Load (0.1ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "rules" SET "regex" = ?, "show_id" = ?, "feed_id" = ?, "updated_at" = ? WHERE "rules"."id" = 1  [["regex", "(computer|restaurant)"], ["show_id", 2], ["feed_id", 2], ["updated_at", Fri, 03 Apr 2015 03:54:11 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mFeed Load (0.1ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered rules/test.js.erb (0.2ms)
+Completed 200 OK in 26ms (Views: 3.8ms | ActiveRecord: 0.8ms)
+  [1m[36m (1.3ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 3"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 19ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Feed 3"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=3"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 4"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Feed 4"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=4"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 5"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["feed_id", 1], ["regex", "Show 1"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Show 6"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["name", "Feed 5"], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=5"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>2, "regex"=>"(computer|restaurant)", "feed_id"=>2}, "commit"=>"Test", "id"=>"1"}
+  [1m[36mRule Load (0.0ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "show_id" = ?, "feed_id" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "(computer|restaurant)"], ["show_id", 2], ["feed_id", 2], ["updated_at", Fri, 03 Apr 2015 03:54:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.2ms)
+Completed 200 OK in 9ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 3"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 21ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Feed 3"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=3"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 4"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Feed 4"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=4"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 5"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["feed_id", 1], ["regex", "Show 1"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Show 6"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["name", "Feed 5"], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=5"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>2, "regex"=>"(computer|restaurant)", "feed_id"=>2}, "commit"=>"Test", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "show_id" = ?, "feed_id" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "(computer|restaurant)"], ["show_id", 2], ["feed_id", 2], ["updated_at", Fri, 03 Apr 2015 03:54:55 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 13ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:55:55 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:55:55 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:56:11 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:56:11 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "rules" WHERE "rules"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 10ms
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:56:21 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:56:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:56:26 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:56:26 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#destroy as JS
+  Parameters: {"id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "rules" WHERE "rules"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered rules/destroy.js (0.2ms)
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 1.0ms)
+  [1m[35m (1.2ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:11 UTC +00:00], ["regex", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:57:11 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+Processing by RulesController#destroy as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "rules" WHERE "rules"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered rules/destroy.js (0.2ms)
+Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+  [1m[35m (1.3ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered rules/new.js.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 3"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Feed 3"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=3"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 4"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Feed 4"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=4"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 5"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["feed_id", 1], ["regex", "Show 1"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Show 6"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["name", "Feed 5"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=5"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>2, "regex"=>"(computer|restaurant)", "feed_id"=>2}, "commit"=>"Test", "id"=>"1"}
+  [1m[36mRule Load (0.1ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "show_id" = ?, "feed_id" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "(computer|restaurant)"], ["show_id", 2], ["feed_id", 2], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 15ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00], ["regex", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:57:16 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#destroy as JS
+  Parameters: {"id"=>"1"}
+  [1m[35mRule Load (0.0ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "rules" WHERE "rules"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by FeedsController#index as HTML
+  Rendered feeds/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by IndexController#index as HTML
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 1"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by RulesController#new as JS
+  Parameters: {"show"=>1}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 1"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=1"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"test regex", "feed_id"=>1}, "commit"=>"Save"}
+  [1m[35mShow Load (0.1ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["feed_id", 1], ["regex", "test regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 3"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 2"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=2"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#create as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"(computer|restaurant)", "feed_id"=>1}, "commit"=>"Test"}
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["feed_id", 1], ["regex", "(computer|restaurant)"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 22ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 3"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=3"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 4"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["feed_id", 1], ["regex", "old regex"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>1, "regex"=>"new regex", "feed_id"=>1}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mRule Load (0.1ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mShow Load (0.0ms)[0m  [1mSELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "new regex"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 4"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=4"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 5"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "rules" ("created_at", "feed_id", "regex", "show_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["feed_id", 1], ["regex", "Show 1"], ["show_id", 1], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 6"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 5"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=5"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by RulesController#update as JS
+  Parameters: {"rule"=>{"show_id"=>2, "regex"=>"(computer|restaurant)", "feed_id"=>2}, "commit"=>"Test", "id"=>"1"}
+  [1m[36mRule Load (0.0ms)[0m  [1mSELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mShow Load (0.0ms)[0m  SELECT "shows".* FROM "shows" WHERE "shows"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "rules" SET "regex" = ?, "show_id" = ?, "feed_id" = ?, "updated_at" = ? WHERE "rules"."id" = 1[0m  [["regex", "(computer|restaurant)"], ["show_id", 2], ["feed_id", 2], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mFeed Load (0.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "rules" ("created_at", "regex", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["regex", "Show 2"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "rules"[0m
+Processing by RulesController#destroy as JS
+  Parameters: {"id"=>"1"}
+  [1m[35mRule Load (0.0ms)[0m  SELECT "rules".* FROM "rules" WHERE "rules"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "rules" WHERE "rules"."id" = ?  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "rules"
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ShowsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "feeds" ("created_at", "name", "updated_at", "url") VALUES (?, ?, ?, ?)  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Feed 6"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["url", "http://lolztracker.com/rss.php?k=6"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "shows" ("created_at", "name", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00], ["name", "Show 7"], ["updated_at", Fri, 03 Apr 2015 03:59:58 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
