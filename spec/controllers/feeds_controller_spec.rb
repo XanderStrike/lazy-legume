@@ -40,7 +40,7 @@ RSpec.describe FeedsController, type: :controller do
     end
   end
 
-  describe 'get create' do
+  describe 'put create' do
     it 'creates a new feed with the given params' do
       params = {
         feed: {
@@ -49,7 +49,7 @@ RSpec.describe FeedsController, type: :controller do
         }
       }
 
-      expect { get :create, params }.to change { Feed.count }.by(1)
+      expect { put :create, params }.to change { Feed.count }.by(1)
       expect(assigns(:feed)).to be_a(Feed)
       expect(assigns(:feed).name).to eq('test feed')
       expect(assigns(:feed).url).to eq('http://dfasdfasdf.com')
@@ -57,7 +57,7 @@ RSpec.describe FeedsController, type: :controller do
     end
   end
 
-  describe 'get update' do
+  describe 'put update' do
     it 'updates the feed' do
       feed = create(:feed, name: 'old name')
       params = {
@@ -67,7 +67,7 @@ RSpec.describe FeedsController, type: :controller do
         }
       }
 
-      get :update, params
+      put :update, params
       expect(assigns(:feed)).to eq(feed)
       expect(assigns(:feed).name).to eq('new name')
       expect(response).to redirect_to(:feeds)
