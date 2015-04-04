@@ -24,7 +24,7 @@ class RulesController < ApplicationController
 
   private
     def test
-      @found_eps = ScanRSS.find_for_rule(@rule)
+      @found_eps = ScanRSS.new(@rule.feed.url).find_for_rule(@rule)
       render :test
     end
 

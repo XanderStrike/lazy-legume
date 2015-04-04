@@ -7,6 +7,31 @@ RSpec.describe EpisodeFinder, :type => :model do
   let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
   let(:scan_service) { ScanRSS.new('test_url') }
 
+  describe '#find_new_for_feed' do
+    it 'finds new episodes for each rule associated with a feed' do
+      feed = create(:feed)
+      rule = create(:rule_with_feed_and_show, regex: 'computer', feed: feed)
+      rule1 = create(:rule_with_feed_and_show, regex: 'restaurant', feed: feed)
+      rule2 = create(:rule_with_feed_and_show, regex: 'school', feed: feed)
+
+      expect(rule.show.episodes.count).to eq(0)
+      expect(rule1.show.episodes.count).to eq(0)
+      expect(rule2.show.episodes.count).to eq(0)
+
+      EpisodeFinder.find_new_for_feed(feed)
+
+      expect(rule.show.episodes.count).to eq(1)
+      expect(rule1.show.episodes.count).to eq(1)
+      expect(rule2.show.episodes.count).to eq(1)
+
+      EpisodeFinder.find_new_for_feed(feed)
+
+      expect(rule.show.episodes.count).to eq(1)
+      expect(rule1.show.episodes.count).to eq(1)
+      expect(rule2.show.episodes.count).to eq(1)
+    end
+  end
+
   describe '#find_new_for_rule' do
     it 'only finds new and valid episodes for a given rule' do
       rule = create(:rule_with_feed_and_show, regex: "solutions")

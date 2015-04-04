@@ -8,6 +8,14 @@ RSpec.describe ScanRSS, :type => :model do
   let(:items) { ScanRSS.new('test_url').parse(//) }
   let(:scan_service) { ScanRSS.new('test_url') }
 
+  describe '.initialize' do
+    it 'gets the xml for the feed url' do
+      expect(ScanRSS).to receive(:get_xml).with('test_feed_url').and_return(feed_xml)
+      service = ScanRSS.new('test_feed_url')
+      expect(service.instance_variable_get(:@xml)).to eq(feed_xml)
+    end
+  end
+
   describe '.find_for_rule' do
     it 'calls the necessary methods' do
       rule = build(:rule_with_feed_and_show)

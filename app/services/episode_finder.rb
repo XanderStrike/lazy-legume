@@ -1,6 +1,11 @@
 class EpisodeFinder
   class << self
     def find_new_for_feed feed
+      scan_service = ScanRSS.new(feed.url)
+
+      feed.rules.each do |r|
+        r.show.episodes << find_new_for_rule(scan_service, r)
+      end
     end
 
     def find_new_for_rule scan_service, rule
