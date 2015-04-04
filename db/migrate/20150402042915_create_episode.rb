@@ -6,6 +6,7 @@ class CreateEpisode < ActiveRecord::Migration
       t.integer :ep_in_season
       t.string :link
       t.integer :show_id
+      t.boolean :downloaded, default: false
       t.timestamps
     end
   end

@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150402042915) do
     t.integer  "ep_in_season"
     t.string   "link"
     t.integer  "show_id"
+    t.boolean  "downloaded",   default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
