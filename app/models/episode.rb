@@ -15,7 +15,12 @@ class Episode < ActiveRecord::Base
     self.ep_in_season = code.last.to_i
   end
 
-  # def download
-  #   `wget #{@link} -O #{DOWNLOAD_LOCATION}/#{name.gsub(' ', '.')}.torrent`
-  # end
+  def torrent_name
+    "#{self.name.gsub(/\s/, '.')}.torrent"
+  end
+
+  def download
+    Downloader.save_torrent self.torrent_name, self.link
+    self.update_attributes(downloaded: true)
+  end
 end
