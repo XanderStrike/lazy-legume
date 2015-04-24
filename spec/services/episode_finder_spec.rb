@@ -30,6 +30,14 @@ RSpec.describe EpisodeFinder, :type => :model do
       expect(rule1.show.episodes.count).to eq(1)
       expect(rule2.show.episodes.count).to eq(1)
     end
+
+    it 'returns a list of episodes' do
+      feed = create(:feed)
+      rule = create(:rule_with_feed_and_show, regex: 'computer', feed: feed)
+      eps = EpisodeFinder.find_new_for_feed(feed)
+
+      expect(eps.first).to be_an(Episode)
+    end
   end
 
   describe '#find_new_for_rule' do
