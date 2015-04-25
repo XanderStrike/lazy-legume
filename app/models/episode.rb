@@ -2,7 +2,7 @@ class Episode < ActiveRecord::Base
   validates :name, presence: true
   validates :link, presence: true
   validates :season, presence: true
-  validates :ep_in_season, presence: true
+  validates :ep_in_season, presence: true, uniqueness: { scope: :season, message: 'Already fetched this episode' }
 
   before_validation :parse_season_code
 
@@ -20,7 +20,9 @@ class Episode < ActiveRecord::Base
   end
 
   def download
-    Downloader.save_torrent self.torrent_name, self.link
-    self.update_attributes(downloaded: true)
+    if self.valid?
+      Downloader.save_torrent self.torrent_name, self.link
+      self.update_attributes(downloaded: true)
+    end
   end
 end
