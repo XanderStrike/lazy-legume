@@ -29,7 +29,7 @@ RSpec.describe Episode, type: :model do
     end
 
     it 'marks the episode as downloaded' do
-      expect(Downloader).to receive(:save_torrent).with(ep.torrent_name, ep.link)
+      expect(Downloader).to receive(:save_torrent).with(ep.torrent_name, ep.link).and_return(true)
       expect(ep).to_not be_downloaded
       ep.download
       expect(ep).to be_downloaded

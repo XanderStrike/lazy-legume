@@ -21,8 +21,8 @@ class Episode < ActiveRecord::Base
 
   def download
     if self.valid?
-      Downloader.save_torrent self.torrent_name, self.link
-      self.update_attributes(downloaded: true)
+      success = Downloader.save_torrent(self.torrent_name, self.link)
+      self.update_attributes(downloaded: success)
     end
   end
 end
