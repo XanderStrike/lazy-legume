@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+    <th>Season</th>
+    <th>Episode</th>
+    <th>Name</th>
+  </thead>
+  <tbody>
+    <% episodes.each do |e| %>
+      <tr>
+        <td><%= e.season %></td>
+        <td><%= e.ep_in_season %></td>
+        <td><%= e.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

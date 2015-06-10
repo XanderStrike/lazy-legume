@@ -6,11 +6,12 @@ class ScanRSS
   end
 
   def find_for_rule rule
-    find_episodes(/#{rule.regex}/i)
+    @rule = rule
+    find_episodes(/#{rule.regex}/i, rule)
   end
 
-  def find_episodes regex
-    filter_valid_episodes(build_episodes(parse(regex)))
+  def find_episodes regex, rule
+    filter_valid_episodes(build_episodes(parse(regex), rule))
   end
 
   def parse regex
@@ -24,9 +25,9 @@ class ScanRSS
     end
   end
 
-  def build_episodes items
+  def build_episodes items, rule
     items.map do |item|
-      Episode.new(name: item.title, link: item.link)
+      Episode.new(name: item.title, link: item.link, show: rule.show)
     end
   end
 

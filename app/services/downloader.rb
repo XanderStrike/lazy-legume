@@ -2,6 +2,7 @@ class Downloader
   class << self
     def save_torrent filename, url
       # TODO make a setting for torrent save location
+      puts "Saving #{ filename }"
       File.open("torrents/#{filename}",'w') do |f|
         uri = URI.parse(url)
         http = Net::HTTP.new(uri.host, uri.port)

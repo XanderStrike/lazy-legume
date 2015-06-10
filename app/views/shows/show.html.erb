@@ -12,3 +12,9 @@
   <%= render partial: 'rules/rules_list', locals: { show: @show } %>
 </div>
 <%= link_to 'Add Rule', new_rule_path(show: @show.id), class: 'btn btn-inverse', remote: true %>
+
+<br>
+<br>
+
+<legend>Episodes</legend>
+<%= render partial: 'episode_table', locals: { episodes: @episodes } %>

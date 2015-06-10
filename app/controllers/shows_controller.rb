@@ -6,6 +6,7 @@ class ShowsController < ApplicationController
   end
 
   def show
+    @episodes = @show.episodes.order(:season, :ep_in_season)
   end
 
   def new
