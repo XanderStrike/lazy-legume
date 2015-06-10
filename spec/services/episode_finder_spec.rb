@@ -10,9 +10,9 @@ RSpec.describe EpisodeFinder, :type => :model do
   describe '#find_new_for_feed' do
     it 'finds new episodes for each rule associated with a feed' do
       feed = create(:feed)
-      rule = create(:rule_with_feed_and_show, regex: 'computer', feed: feed)
-      rule1 = create(:rule_with_feed_and_show, regex: 'restaurant', feed: feed)
-      rule2 = create(:rule_with_feed_and_show, regex: 'school', feed: feed)
+      rule = create(:rule, regex: 'computer', feed: feed)
+      rule1 = create(:rule, regex: 'restaurant', feed: feed)
+      rule2 = create(:rule, regex: 'school', feed: feed)
 
       expect(rule.show.episodes.count).to eq(0)
       expect(rule1.show.episodes.count).to eq(0)
@@ -33,7 +33,7 @@ RSpec.describe EpisodeFinder, :type => :model do
 
     it 'returns a list of episodes' do
       feed = create(:feed)
-      rule = create(:rule_with_feed_and_show, regex: 'computer', feed: feed)
+      rule = create(:rule, regex: 'computer', feed: feed)
       eps = EpisodeFinder.find_new_for_feed(feed)
 
       expect(eps.first).to be_an(Episode)
@@ -42,7 +42,7 @@ RSpec.describe EpisodeFinder, :type => :model do
 
   describe '#find_new_for_rule' do
     it 'only finds new and valid episodes for a given rule' do
-      rule = create(:rule_with_feed_and_show, regex: "solutions")
+      rule = create(:rule, regex: "solutions")
       show = rule.show
 
       results = EpisodeFinder.find_new_for_rule(scan_service, rule)

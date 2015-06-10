@@ -18,7 +18,7 @@ RSpec.describe ScanRSS, :type => :model do
 
   describe '.find_for_rule' do
     it 'calls the necessary methods' do
-      rule = build(:rule_with_feed_and_show)
+      rule = build(:rule)
       expect(scan_service).to receive(:find_episodes).with(/#{rule.regex}/i)
 
       scan_service.find_for_rule(rule)

@@ -24,7 +24,7 @@ RSpec.describe Episode, type: :model do
     let(:ep) { build(:episode) }
 
     it 'invokes the downloaders save method on the episode' do
-      expect(Downloader).to receive(:save_torrent).with(ep.torrent_name, ep.link)
+      expect(Downloader).to receive(:save_torrent).with(ep.torrent_name, ep.link).and_return(true)
       ep.download
     end
 

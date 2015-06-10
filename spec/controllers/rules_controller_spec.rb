@@ -57,7 +57,7 @@ RSpec.describe RulesController, type: :controller do
   describe 'get update' do
     context 'as save' do
       it 'updates a rule with the given params' do
-        rule = create(:rule_with_feed_and_show, regex: 'old regex')
+        rule = create(:rule, regex: 'old regex')
         expect(rule.regex).to eq('old regex')
         params = {
           id: rule.id,
@@ -78,7 +78,7 @@ RSpec.describe RulesController, type: :controller do
 
     context 'as test' do
       it 'gets the episodes that match the rule and renders the test template' do
-        rule = create(:rule_with_feed_and_show)
+        rule = create(:rule)
         params = {
           id: rule.id,
           rule: {
