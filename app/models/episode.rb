@@ -16,10 +16,6 @@ class Episode < ActiveRecord::Base
     self.ep_in_season = code.last.to_i
   end
 
-  def season_code
-    "S#{ season }E#{ ep_in_season }"
-  end
-
   def torrent_name
     "#{self.name.gsub(/\s/, '.')}.torrent"
   end
