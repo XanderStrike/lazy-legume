@@ -2,6 +2,7 @@ class Episode < ActiveRecord::Base
   validates :name, presence: true
   validates :link, presence: true
   validates :season, presence: true
+  validates :show, presence: true
   validates :ep_in_season, presence: true, uniqueness: { scope: :season, message: 'Already fetched this episode' }
 
   before_validation :parse_season_code
@@ -15,11 +16,16 @@ class Episode < ActiveRecord::Base
     self.ep_in_season = code.last.to_i
   end
 
+  def season_code
+    "S#{ season }E#{ ep_in_season }"
+  end
+
   def torrent_name
     "#{self.name.gsub(/\s/, '.')}.torrent"
   end
 
   def download
+    puts self.inspect
     if self.valid?
       success = Downloader.save_torrent(self.torrent_name, self.link)
       self.update_attributes(downloaded: success)

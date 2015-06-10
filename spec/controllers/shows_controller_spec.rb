@@ -18,6 +18,13 @@ RSpec.describe ShowsController, type: :controller do
 
       expect(assigns(:show)).to eq(show)
     end
+
+    it 'gets a sorted list of episodes for the show' do
+      show = create(:show_with_episodes)
+      get :show, id: show.id
+
+      expect(assigns(:episodes)).to eq(show.episodes.order(:season, :ep_in_season))
+    end
   end
 
   describe 'get new' do

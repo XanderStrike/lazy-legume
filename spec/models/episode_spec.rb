@@ -38,7 +38,7 @@ RSpec.describe Episode, type: :model do
 
   describe 'hooks' do
     it 'runs parse_season_code on validation' do
-      ep = Episode.new(name: 'Firefly S02E01', link: 'http://fakelink.com')
+      ep = Episode.new(name: 'Firefly S02E01', link: 'http://fakelink.com', show: create(:show))
       expect(ep.season).to be_nil
       expect(ep.ep_in_season).to be_nil
       expect(ep.valid?).to be_truthy

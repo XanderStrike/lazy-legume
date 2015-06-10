@@ -7,6 +7,7 @@ RSpec.describe ScanRSS, :type => :model do
   let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
   let(:items) { ScanRSS.new('test_url').parse(//) }
   let(:scan_service) { ScanRSS.new('test_url') }
+  let(:rule) { create(:rule) }
 
   describe '.initialize' do
     it 'gets the xml for the feed url' do
@@ -18,8 +19,7 @@ RSpec.describe ScanRSS, :type => :model do
 
   describe '.find_for_rule' do
     it 'calls the necessary methods' do
-      rule = build(:rule)
-      expect(scan_service).to receive(:find_episodes).with(/#{rule.regex}/i)
+      expect(scan_service).to receive(:find_episodes).with(/#{rule.regex}/i, rule)
 
       scan_service.find_for_rule(rule)
     end
@@ -30,7 +30,7 @@ RSpec.describe ScanRSS, :type => :model do
       expect(scan_service).to receive(:filter_valid_episodes)
       expect(scan_service).to receive(:build_episodes)
       expect(scan_service).to receive(:parse)
-      scan_service.find_episodes(//)
+      scan_service.find_episodes(//, rule)
     end
   end
 
@@ -43,7 +43,7 @@ RSpec.describe ScanRSS, :type => :model do
 
   describe '.build_episodes' do
     it 'returns a list of episodes' do
-      episodes = scan_service.build_episodes(items)
+      episodes = scan_service.build_episodes(items, rule)
       expect(episodes.first).to be_an(Episode)
       expect(episodes.first.name).to eq('RSS Solutions for S01E15 Restaurants')
       expect(episodes.first.valid?).to be_truthy
@@ -53,7 +53,7 @@ RSpec.describe ScanRSS, :type => :model do
 
   describe '.filter_valid_episodes' do
     it 'removes invalid episodes' do
-      episodes = scan_service.build_episodes(items)
+      episodes = scan_service.build_episodes(items, rule)
       expect(episodes.count).to eq(9)
       filtered_episodes = scan_service.filter_valid_episodes(episodes)
       expect(filtered_episodes.count).to eq(8)
