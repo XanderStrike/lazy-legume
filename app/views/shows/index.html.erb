@@ -5,18 +5,16 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th width='10%'>Episodes</th>
+      <th width='5%'></th>
     </tr>
   </thead>
 
   <tbody>
     <% @shows.each do |show| %>
       <tr>
-        <td><%= show.name %></td>
-        <td><%= link_to 'Show', show %></td>
-        <td><%= link_to 'Edit', edit_show_path(show) %></td>
+        <td><%= link_to show.name, show %></td>
+        <td><%= show.episodes.count %></td>
         <td><%= link_to 'Destroy', show, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
