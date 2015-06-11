@@ -13,7 +13,7 @@ RSpec.describe ScanRSS, :type => :model do
     it 'gets the xml for the feed url' do
       expect(ScanRSS).to receive(:get_xml).with('test_feed_url').and_return(feed_xml)
       service = ScanRSS.new('test_feed_url')
-      expect(service.instance_variable_get(:@xml)).to eq(feed_xml)
+      expect(service.instance_variable_get(:@feed).items.count).to eq(RSS::Parser.parse(feed_xml).items.count)
     end
   end
 

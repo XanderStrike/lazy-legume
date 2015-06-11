@@ -2,11 +2,10 @@ require 'rss'
 
 class ScanRSS
   def initialize feed_url
-    @xml = ScanRSS.get_xml(feed_url)
+    @feed = RSS::Parser.parse(ScanRSS.get_xml(feed_url))
   end
 
   def find_for_rule rule
-    @rule = rule
     find_episodes(/#{rule.regex}/i, rule)
   end
 
@@ -15,9 +14,8 @@ class ScanRSS
   end
 
   def parse regex
-    feed = RSS::Parser.parse(@xml)
     [].tap do |results|
-      feed.items.each do |item|
+      @feed.items.each do |item|
         unless item.title.scan(regex).empty?
           results << item
         end

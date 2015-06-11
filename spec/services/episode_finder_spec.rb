@@ -9,6 +9,8 @@ RSpec.describe EpisodeFinder, :type => :model do
 
   describe '#find_new_for_feed' do
     it 'finds new episodes for each rule associated with a feed' do
+      expect(ScanRSS).to receive(:get_xml).twice.and_return(feed_xml)
+
       feed = create(:feed)
       rule = create(:rule, regex: 'computer', feed: feed)
       rule1 = create(:rule, regex: 'restaurant', feed: feed)
