@@ -2,7 +2,7 @@ class ShowsController < ApplicationController
   before_action :set_show, only: [:show, :edit, :update, :destroy]
 
   def index
-    @shows = Show.all
+    @shows = Show.order(:name)
   end
 
   def show
