@@ -13,6 +13,13 @@ RSpec.describe Episode, type: :model do
     end
   end
 
+  describe '.season_code' do
+    it 'returns the season code for an episode' do
+      ep = build(:episode, season: 5, ep_in_season: 11)
+      expect(ep.season_code).to eq('S05E11')
+    end
+  end
+
   describe '.torrent_name' do
     it 'returns a suitable name for a torrent' do
       ep = build(:episode, name: 'look at all this whitespace')

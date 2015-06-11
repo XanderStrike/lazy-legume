@@ -7,4 +7,12 @@ module ApplicationHelper
     </div>
     HTML
   end
+
+  def truncate str, n
+    "#{ str[0..(n-4)] }#{'...' unless str.size < n-4}"
+  end
+
+  def readable_timestamp t
+    t.localtime.strftime("%D %r")
+  end
 end

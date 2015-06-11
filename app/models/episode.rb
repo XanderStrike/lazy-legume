@@ -16,6 +16,10 @@ class Episode < ActiveRecord::Base
     self.ep_in_season = code.last.to_i
   end
 
+  def season_code
+    "S#{ zero_pad season }E#{ zero_pad ep_in_season }"
+  end
+
   def torrent_name
     "#{self.name.gsub(/\s/, '.')}.torrent"
   end
@@ -25,5 +29,11 @@ class Episode < ActiveRecord::Base
       success = Downloader.save_torrent(self.torrent_name, self.link)
       self.update_attributes(downloaded: success)
     end
+  end
+
+  private
+
+  def zero_pad i
+    i.to_s.rjust(2, "0")
   end
 end

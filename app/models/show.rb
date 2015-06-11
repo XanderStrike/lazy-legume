@@ -1,4 +1,4 @@
 class Show < ActiveRecord::Base
-  has_many :rules
-  has_many :episodes
+  has_many :rules, dependent: :destroy
+  has_many :episodes, dependent: :destroy
 end
