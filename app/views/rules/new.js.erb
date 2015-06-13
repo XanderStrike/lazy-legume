@@ -1,1 +1,2 @@
 $('#js-rules-area').append("<%=j render partial: 'rules/rule', locals: { rule: @rule, show: @show } %>");
+buildRegexForField(".js-rule-<%= @rule.id || 'new' %>");

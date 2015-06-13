@@ -3,7 +3,7 @@
     <%= image_tag "http://thetvdb.com/banners/#{ show.poster }", class: 'show-poster' %>
   </div>
   <div class="col-md-9">
-    <h4><%= show.name %> <%= f.submit 'Select', class: 'btn btn-success btn-sm' rescue nil %></h4>
+    <h4 class='js-show-title'><%= show.name %> <%= f.submit 'Select', class: 'btn btn-success btn-sm' rescue nil %></h4>
     <div class="row">
       <div class="col-md-8">
         <p><%= orblank show.overview %></p>

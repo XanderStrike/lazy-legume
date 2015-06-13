@@ -1,8 +1,8 @@
-<%= form_for rule, remote: true do |f| %>
+ <%= form_for rule, remote: true do |f| %>
   <%= f.hidden_field :show_id, value: show.id %>
   <table class="table">
   <tr>
-    <td><%= f.text_field :regex, class: 'form-control', placeholder: 'Regex' %></td>
+    <td><%= f.text_field :regex, class: "form-control js-rule-#{ rule.id || 'new' }", placeholder: 'Regex' %></td>
     <td><%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, {class: 'form-control'} %>
     <td width="10%"><%= f.submit 'Save', class: 'btn btn-inverse' %></td>
     <td width="10%"><%= f.submit 'Test', class: 'btn', data: { disable_with: 'Loading...' } %></td>
