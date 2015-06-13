@@ -1,0 +1,5 @@
+<% if @shows.blank? %>
+  $('.js-results').html("Nothing found :(");
+<% else %>
+  $('.js-results').html("<%=j render partial: 'result', collection: @shows %>");
+<% end %>

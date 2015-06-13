@@ -33,4 +33,14 @@ describe ApplicationHelper do
       expect(ts).to eq(t.localtime.strftime("%D %r"))
     end
   end
+
+  describe '#orblank' do
+    it 'returns the value if it exists' do
+      expect(helper.orblank('hello')).to eq('hello')
+    end
+
+    it 'returns -- if no value' do
+      expect(helper.orblank(nil)).to eq('--')
+    end
+  end
 end

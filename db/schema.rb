@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150402042915) do
+ActiveRecord::Schema.define(version: 20150613054353) do
 
   create_table "episodes", force: true do |t|
     t.string   "name",                         null: false
@@ -40,9 +40,18 @@ ActiveRecord::Schema.define(version: 20150402042915) do
   end
 
   create_table "shows", force: true do |t|
-    t.string   "name",       null: false
+    t.string   "name",           null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "poster"
+    t.string   "overview"
+    t.string   "actors"
+    t.date     "first_aired"
+    t.string   "rating"
+    t.string   "status"
+    t.string   "airs_dayofweek"
+    t.string   "airs_time"
+    t.string   "genre"
   end
 
 end

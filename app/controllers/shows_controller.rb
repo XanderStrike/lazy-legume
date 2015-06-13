@@ -13,6 +13,10 @@ class ShowsController < ApplicationController
     @show = Show.new
   end
 
+  def tvdb_search
+    @shows = Tvdb.new.search(params[:title])
+  end
+
   def edit
   end
 
@@ -38,6 +42,6 @@ class ShowsController < ApplicationController
     end
 
     def show_params
-      params.require(:show).permit(:name)
+      params.require(:show).permit(:name, :poster, :name, :overview, :actors, :first_aired, :rating, :status, :airs_dayofweek, :airs_time, :genre)
     end
 end

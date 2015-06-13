@@ -15,4 +15,8 @@ module ApplicationHelper
   def readable_timestamp t
     t.localtime.strftime("%D %r")
   end
+
+  def orblank data
+    data || '--'
+  end
 end

@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+.result-poster {
+  padding-bottom:30px;
+  width: 100%;
+}

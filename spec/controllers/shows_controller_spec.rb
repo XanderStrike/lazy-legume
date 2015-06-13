@@ -35,6 +35,19 @@ RSpec.describe ShowsController, type: :controller do
     end
   end
 
+  describe 'post tvdb_search' do
+    it 'uses the tvdb service to search for the show' do
+      client_double = double()
+      expect(client_double).to receive(:search).and_return('hello')
+      expect(Tvdb).to receive(:new).and_return(client_double)
+
+      post :tvdb_search, format: :js
+      expect(assigns(:shows)).to eq('hello')
+      expect(response).to render_template(:tvdb_search)
+    end
+  end
+
+
   describe 'get edit' do
     it 'gets the right show' do
       show = create(:show)
