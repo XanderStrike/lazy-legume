@@ -27,7 +27,7 @@
             <td><%= orblank show.airs_dayofweek %> at <%= orblank show.airs_time %></td>
           <tr>
             <th>Genre</th>
-            <td><%= (orblank (show.genre.try(:join, '<br>') || show.genre_list)).html_safe %></td>
+            <td><%= (orblank (show.genre.try(:join, '<br>') || show.try(:genre_list))).html_safe %></td>
           </tr>
         </table>
       </div>
