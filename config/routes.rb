@@ -1,5 +1,5 @@
 Lazylegume::Application.routes.draw do
-  resources :shows do
+  resources :shows, only: [:index, :show, :new, :create, :destroy] do
     collection do
       post 'tvdb_search'
     end

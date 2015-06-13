@@ -48,44 +48,18 @@ RSpec.describe ShowsController, type: :controller do
   end
 
 
-  describe 'get edit' do
-    it 'gets the right show' do
-      show = create(:show)
-      get :edit, id: show.id
-      expect(assigns(:show)).to eq(show)
-      expect(response).to render_template(:edit)
-    end
-  end
-
   describe 'put create' do
     it 'creates a new show with the given params' do
       params = {
         show: {
           name: 'test show',
-          url: 'http://dfasdfasdf.com'
+          tvdb_id: 1234
         }
       }
 
       expect { put :create, params }.to change { Show.count }.by(1)
       expect(assigns(:show)).to be_a(Show)
       expect(assigns(:show).name).to eq('test show')
-      expect(response).to redirect_to(assigns(:show))
-    end
-  end
-
-  describe 'put update' do
-    it 'updates the show' do
-      show = create(:show, name: 'old name')
-      params = {
-        id: show.id,
-        show: {
-          name: 'new name'
-        }
-      }
-
-      put :update, params
-      expect(assigns(:show)).to eq(show)
-      expect(assigns(:show).name).to eq('new name')
       expect(response).to redirect_to(assigns(:show))
     end
   end

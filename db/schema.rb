@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(version: 20150613054353) do
     t.string   "airs_dayofweek"
     t.string   "airs_time"
     t.string   "genre"
+    t.integer  "tvdb_id"
   end
 
 end

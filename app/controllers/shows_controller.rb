@@ -17,18 +17,10 @@ class ShowsController < ApplicationController
     @shows = Tvdb.new.search(params[:title])
   end
 
-  def edit
-  end
-
   def create
     @show = Show.new(show_params)
     @show.save
     redirect_to @show, notice: 'Show was successfully created.'
-  end
-
-  def update
-    @show.update(show_params)
-    redirect_to @show, notice: 'Show was successfully updated.'
   end
 
   def destroy
@@ -42,6 +34,6 @@ class ShowsController < ApplicationController
     end
 
     def show_params
-      params.require(:show).permit(:name, :poster, :name, :overview, :actors, :first_aired, :rating, :status, :airs_dayofweek, :airs_time, :genre)
+      params.require(:show).permit(:tvdb_id, :name, :poster, :name, :overview, :actors, :first_aired, :rating, :status, :airs_dayofweek, :airs_time, :genre)
     end
 end

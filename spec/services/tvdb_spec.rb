@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Tvdb, :type => :model do
+  # TODO VCR
+
   describe '.initialize' do
     it 'creates an instance of the tvdb client' do
       client = Tvdb.new()

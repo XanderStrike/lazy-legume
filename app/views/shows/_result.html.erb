@@ -1,43 +1,9 @@
 <div class="result">
   <%= form_for Show.new do |f| %>
-    <% %w(poster name overview actors first_aired rating status airs_dayofweek airs_time genre).each do |field| %>
+    <%= f.hidden_field :tvdb_id, value: result.id %>
+    <% %w(poster name actors overview first_aired rating status airs_dayofweek airs_time genre).each do |field| %>
       <%= f.hidden_field field, value: result.send(field.to_sym) %>
     <% end %>
-  <div class="row">
-    <div class="col-md-3">
-      <%= image_tag "http://thetvdb.com/banners/#{ result.poster }", class: 'result-poster' %>
-    </div>
-    <div class="col-md-9">
-      <h4><%= result.name %> <%= f.submit 'Select', class: 'btn btn-success btn-sm' %></h4>
-      <div class="row">
-        <div class="col-md-8">
-          <p><%= result.overview %></p>
-          <p>Starring: <%= result.actors[0..5].join(', ') %></p>
-        </div>
-        <div class="col-md-4">
-          <table class='table'>
-            <tr>
-              <th width='40%'>First Aired</th>
-              <td><%= orblank result.first_aired.try(:strftime, "%D") %></td>
-            </tr>
-            <tr>
-              <th>Rating</th>
-              <td><%= orblank result.rating %></td>
-            <tr>
-              <th>Status</th>
-              <td><%= orblank result.status %></td>
-            </tr>
-            <tr>
-              <th>Airs</th>
-              <td><%= orblank result.airs_dayofweek %> at <%= orblank result.airs_time %></td>
-            <tr>
-              <th>Genre</th>
-              <td><%= (orblank result.genre.try(:join, '<br>')).html_safe %></td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
+    <%= render partial: 'show_info', locals: { f: f, show: result } %>
   <% end %>
 </div>

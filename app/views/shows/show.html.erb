@@ -1,11 +1,14 @@
-<h1><%= @show.name %></h1>
+<% if notice %>
+  <%= bootstrap_alert(:success, notice).html_safe %>
+<% end %>
+
 <span class="pull-right">
-  <%= link_to 'Edit'.html_safe, edit_show_path(@show) %> |
-  <%= link_to 'Shows'.html_safe, shows_path %> |
+  <%= link_to 'Destroy', @show, method: :delete, data: { confirm: 'Are you sure? This will delete all associated episodes and rules (but not files on the disk).' } %> |
+  <%= link_to 'Shows', shows_path %> |
   <%= link_to 'Home', root_url %>
 </span>
-
-<p id="notice"><%= notice %></p>
+<br>
+<%= render partial: 'show_info', locals: { show: @show } %>
 
 <legend>Rules</legend>
 <div id="js-rules-area">
