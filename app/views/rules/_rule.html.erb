@@ -1,17 +1,21 @@
  <%= form_for rule, remote: true do |f| %>
   <%= f.hidden_field :show_id, value: show.id %>
-  <table class="table">
-  <tr>
-    <td><%= f.text_field :regex, class: "form-control js-rule-#{ rule.id || 'new' }", placeholder: 'Regex' %></td>
-    <td><%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, {class: 'form-control'} %>
-    <td width="10%"><%= f.submit 'Save', class: 'btn btn-inverse' %></td>
-    <td width="10%"><%= f.submit 'Test', class: 'btn', data: { disable_with: 'Loading...' } %></td>
-    <% if rule.id %>
-      <td width="10%"><%= link_to 'Destroy', rule, class: 'btn btn-danger', method: :delete, remote: true, data: { confirm: 'Are you sure?' } %></td>
-    <% else %>
-      <td width="10%"></td>
-    <% end %>
-  </tr>
-  </table>
+  <div class="row rule-row">
+    <div class='col-md-5'>
+      <%= f.text_field :regex, class: "form-control js-rule-#{ rule.id || 'new' }", placeholder: 'Regex' %>
+    </div>
+    <div class="col-md-3">
+      <%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, {class: 'form-control'} %>
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Save', class: 'btn btn-inverse btn-block', data: { disable_with: '...' } %>
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Test', class: 'btn btn-block', data: { disable_with: '...' } %>
+    </div>
+    <div class="col-md-2">
+      <%= link_to('Destroy', rule, class: 'btn btn-danger btn-block', method: :delete, remote: true, data: { confirm: 'Are you sure?' }) if rule.id.present? %>
+    </div>
+  </div>
 <% end %>
 <div id='js-<%= rule.id %>-test-area'></div>

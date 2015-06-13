@@ -1,9 +1,15 @@
-<div class="well">
-  <% episodes.each do |episode| %>
-    <div class="row">
-      <div class="col-md-8">
-        <%= episode.name %>
+<div class="well rule-test-well">
+  <% if episodes.empty? %>
+    <p>Nothing found :(</p>
+
+    <p>This is likely because there are no shows matching your filter on the feed right now. Try searching without regex to see all possible episodes.</p>
+  <% else %>
+    <% episodes.each do |episode| %>
+      <div class="row">
+        <div class="col-md-12">
+          <%= episode.name %>
+        </div>
       </div>
-    </div>
+    <% end %>
   <% end %>
 </div>
