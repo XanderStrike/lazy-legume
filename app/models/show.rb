@@ -13,6 +13,10 @@ class Show < ActiveRecord::Base
     parse_to_array(genre).join("<br>") rescue nil
   end
 
+  def poster_path
+    "http://thetvdb.com/banners/#{ poster }"
+  end
+
   private
 
   def parse_to_array stringified_list

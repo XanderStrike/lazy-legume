@@ -28,4 +28,11 @@ RSpec.describe Show, type: :model do
       expect(show.genre_list).to eq('Adventure<br>Drama<br>Fantasy<br>Variety')
     end
   end
+
+  describe '.poster_path' do
+    it 'applies the poster path to the tvdb url' do
+      show = create(:show, poster: 'test.jpg')
+      expect(show.poster_path).to eq('http://thetvdb.com/banners/test.jpg')
+    end
+  end
 end

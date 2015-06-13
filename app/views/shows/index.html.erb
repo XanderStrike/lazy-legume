@@ -13,7 +13,9 @@
   <tbody>
     <% @shows.each do |show| %>
       <tr>
-        <td><%= link_to show.name, show %></td>
+        <td>
+          <%= link_to "#{ image_tag(show.poster_path, class: 'show-poster-thumb') }  #{ show.name }".html_safe, show %>
+        </td>
         <td><%= show.episodes.count %></td>
         <td><%= link_to 'Destroy', show, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
