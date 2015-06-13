@@ -1,0 +1,9 @@
+<div class="result">
+  <%= form_for Show.new do |f| %>
+    <%= f.hidden_field :tvdb_id, value: result.id %>
+    <% %w(poster name actors overview first_aired rating status airs_dayofweek airs_time genre).each do |field| %>
+      <%= f.hidden_field field, value: result.send(field.to_sym) %>
+    <% end %>
+    <%= render partial: 'show_info', locals: { f: f, show: result } %>
+  <% end %>
+</div>

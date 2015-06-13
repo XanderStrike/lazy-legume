@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'whenever'
 gem 'open_uri_redirections'
+gem 'ttvdb'
 
 group :doc do
   gem 'sdoc', require: false
