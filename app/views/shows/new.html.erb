@@ -3,7 +3,12 @@
 <%= form_tag tvdb_search_shows_path, remote: true, class: 'form-horizontal' %>
   <div class="form-group">
     <div class="col-sm-12">
-      <input class="form-control" name="title" placeholder="Title, hit enter to search">
+      <div class="input-group">
+        <input type="text" name='title' class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+          <%= submit_tag 'Go!', class: 'btn btn-default' %>
+        </span>
+      </div>
     </div>
   </div>
 </form>

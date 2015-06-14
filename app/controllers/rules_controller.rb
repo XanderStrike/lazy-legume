@@ -34,6 +34,6 @@ class RulesController < ApplicationController
     end
 
     def rule_params
-      params.require(:rule).permit(:regex, :show_id, :feed_id)
+      params.require(:rule).permit(:regex, :keywords, :quality, :show_id, :feed_id)
     end
 end

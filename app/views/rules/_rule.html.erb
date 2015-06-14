@@ -1,17 +1,29 @@
-<%= form_for rule, remote: true do |f| %>
+ <%= form_for rule, remote: true do |f| %>
   <%= f.hidden_field :show_id, value: show.id %>
-  <table class="table">
-  <tr>
-    <td><%= f.text_field :regex, class: 'form-control', placeholder: 'Regex' %></td>
-    <td><%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, {class: 'form-control'} %>
-    <td width="10%"><%= f.submit 'Save', class: 'btn btn-inverse' %></td>
-    <td width="10%"><%= f.submit 'Test', class: 'btn', data: { disable_with: 'Loading...' } %></td>
-    <% if rule.id %>
-      <td width="10%"><%= link_to 'Destroy', rule, class: 'btn btn-danger', method: :delete, remote: true, data: { confirm: 'Are you sure?' } %></td>
-    <% else %>
-      <td width="10%"></td>
-    <% end %>
-  </tr>
-  </table>
+  <div class="row rule-setting-row">
+    <div class="col-md-5">
+      <%= f.text_field :keywords, placeholder: 'Keywords', class: 'form-control', value: (rule.keywords || @show.name) %>
+    </div>
+    <div class="col-md-2">
+      <%= render partial: 'rules/quality_select', locals: { f: f, rule: rule } %>
+    </div>
+    <div class="col-md-2">
+      <%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, class: 'form-control' %>
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Save', class: 'btn btn-inverse btn-block', data: { disable_with: '...' } %>
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Test', class: 'btn btn-block', data: { disable_with: '...' } %>
+    </div>
+    <div class="col-md-1">
+      <%= link_to('<span class="fui-cross-circle"></span>'.html_safe, rule, class: 'btn btn-danger btn-block', method: :delete, remote: true, data: { confirm: 'Are you sure?' }) if rule.id.present? %>
+    </div>
+  </div>
+  <div class="row rule-regex-row">
+    <div class='col-md-12'>
+      <%= f.text_field :regex, class: "form-control", placeholder: 'Regex, click to edit manually', readonly: true %>
+    </div>
+  </div>
 <% end %>
 <div id='js-<%= rule.id %>-test-area'></div>

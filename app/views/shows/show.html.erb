@@ -1,3 +1,7 @@
+<% content_for :javascript_includes do %>
+  <%= javascript_include_tag "show_show.js" %>
+<% end %>
+
 <% if notice %>
   <%= bootstrap_alert(:success, notice).html_safe %>
 <% end %>
@@ -10,7 +14,7 @@
 <br>
 <%= render partial: 'show_info', locals: { show: @show } %>
 
-<legend>Rules</legend>
+<h4>Rules</h4>
 <div id="js-rules-area">
   <%= render partial: 'rules/rules_list', locals: { show: @show } %>
 </div>
@@ -19,5 +23,5 @@
 <br>
 <br>
 
-<legend>Episodes</legend>
+<h4>Episodes</h4>
 <%= render partial: 'episode_table', locals: { episodes: @episodes } %>

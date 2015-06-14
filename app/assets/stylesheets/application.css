@@ -20,3 +20,16 @@
 .show-poster-thumb {
   height: 50px;
 }
+
+.rule-setting-row {
+  padding-bottom:10px;
+}
+
+.rule-regex-row {
+  padding-bottom:20px;
+}
+
+.rule-test-well {
+  max-height: 350px;
+  overflow: scroll;
+}

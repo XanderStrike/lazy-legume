@@ -1327,7 +1327,7 @@ fieldset[disabled] .form-control,
 .select2-search input[type="text"][disabled],
 .select2-search input[type="text"][readonly],
 fieldset[disabled] .select2-search input[type="text"] {
-  color: #d5dbdb;
+  color: #555;
   cursor: default;
   background-color: #f4f6f6;
   filter: alpha(opacity=70);
