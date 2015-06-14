@@ -21,7 +21,11 @@
   height: 50px;
 }
 
-.rule-row {
+.rule-setting-row {
+  padding-bottom:10px;
+}
+
+.rule-regex-row {
   padding-bottom:20px;
 }
 
