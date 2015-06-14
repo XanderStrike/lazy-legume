@@ -49,17 +49,23 @@ RSpec.describe ShowsController, type: :controller do
 
 
   describe 'put create' do
-    it 'creates a new show with the given params' do
+    it 'creates a new show and rule with the given params' do
+      feed = create(:feed)
+
       params = {
         show: {
           name: 'test show',
-          tvdb_id: 1234
+          tvdb_id: 1234,
+          rule: {
+            quality: '1080'
+          }
         }
       }
 
       expect { put :create, params }.to change { Show.count }.by(1)
       expect(assigns(:show)).to be_a(Show)
       expect(assigns(:show).name).to eq('test show')
+      expect(assigns(:show).rules.first.quality).to eq('1080')
       expect(response).to redirect_to(assigns(:show))
     end
   end

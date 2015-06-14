@@ -5,13 +5,7 @@
       <%= f.text_field :keywords, placeholder: 'Keywords', class: 'form-control', value: (rule.keywords || @show.name) %>
     </div>
     <div class="col-md-2">
-      <%= f.select :quality, options_for_select([['Quality - Any', ''],
-                                                   ['HDTV', 'hdtv'],
-                                                   ['720', '720'],
-                                                   ['1080', '1080'],
-                                                   ['720 or 1080', '(720|1080)'],
-                                                   ['WEB', 'web']], rule.quality),
-        {}, class: 'form-control' %>
+      <%= render partial: 'rules/quality_select', locals: { f: f, rule: rule } %>
     </div>
     <div class="col-md-2">
       <%= f.select :feed_id, Feed.all.map {|f| [f.name, f.id] }, {}, class: 'form-control' %>

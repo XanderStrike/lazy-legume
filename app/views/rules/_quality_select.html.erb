@@ -1,0 +1,7 @@
+<%= f.select :quality, options_for_select([['Quality - Any', ''],
+                                                   ['HDTV', 'hdtv'],
+                                                   ['720', '720'],
+                                                   ['1080', '1080'],
+                                                   ['720 or 1080', '(720|1080)'],
+                                                   ['WEB', 'web']], rule.quality),
+        {}, class: 'form-control' %>
