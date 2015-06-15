@@ -16,7 +16,7 @@
     <% @feeds.each do |feed| %>
       <tr>
         <td><%= feed.name %></td>
-        <td><%= feed.url %></td>
+        <td><%= truncate feed.url, 30 %></td>
         <td><%= link_to 'Edit', edit_feed_path(feed) %></td>
         <td><%= link_to 'Destroy', feed, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>

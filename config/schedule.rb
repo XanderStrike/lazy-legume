@@ -3,6 +3,6 @@
 # It's helpful, but not entirely necessary to understand cron before proceeding.
 # http://en.wikipedia.org/wiki/Cron
 
-every 15.minutes do
-  rake "update:all"
+every 5.minutes do
+  rake "update:all", environment: :development
 end
