@@ -9,17 +9,21 @@
     <div class="col-md-12">
       <div class="row">
         <% pair.each do |show| %>
-          <div class="col-md-3 col-xs-3">
-            <%= link_to image_tag(show.poster_path, class: 'show-poster').html_safe, show %>
-          </div>
-          <div class="col-md-3 col-xs-3">
-            <strong><%= link_to show.name, show %></strong><br>
-            <div class="hidden-xs">
-              Airs <%= orblank show.airs_dayofweek %> at <%= orblank show.airs_time %><br>
-              <small>
-                Newest: <%= orblank show.episodes.order('created_at asc').first.try(:season_code) %><br>
-                <%= show.episodes.count %> episodes total
-              </small>
+          <div class = "col-md-6 col-xs-6 show-row">
+            <div class="row">
+              <div class="col-md-6">
+                <%= link_to image_tag(show.poster_path, class: 'show-poster').html_safe, show %>
+              </div>
+              <div class="col-md-6">
+                <strong><%= link_to show.name, show %></strong><br>
+                <div class="hidden-xs">
+                  Airs <%= orblank show.airs_dayofweek %> at <%= orblank show.airs_time %><br>
+                  <small>
+                    Newest: <%= orblank show.episodes.order('created_at asc').first.try(:season_code) %><br>
+                    <%= show.episodes.count %> episodes total
+                  </small>
+                </div>
+              </div>
             </div>
           </div>
         <% end %>

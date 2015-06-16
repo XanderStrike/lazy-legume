@@ -17,8 +17,11 @@
 }
 
 .show-poster {
-  padding-bottom:30px;
   width: 100%;
+}
+
+.show-row {
+  padding-bottom:30px;
 }
 
 .show-poster-thumb {

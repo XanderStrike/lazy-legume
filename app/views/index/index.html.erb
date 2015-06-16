@@ -1,3 +1,7 @@
+<% content_for :navbar do %>
+  <li><%= link_to 'New Show', new_show_path, class: '' %></li>
+<% end %>
+
 <h4>Recent Snatches</h4>
 
 <% @recent_episodes.each_slice(2) do |pair| %>
@@ -5,15 +9,19 @@
     <div class="col-md-12">
       <div class="row">
         <% pair.each do |ep| %>
-          <div class="col-md-3 col-xs-3">
-            <%= link_to image_tag(ep.show.poster_path, class: 'show-poster').html_safe, ep.show %>
-          </div>
-          <div class="col-md-3 col-xs-3">
-            <strong><%= link_to ep.show.name, ep.show %></strong><br>
-            <%= ep.season_code %>
-            <div class="hidden-xs">
-              <%= readable_timestamp ep.created_at %><br>
-              <small><%= truncate ep.name, 90 %></small>
+          <div class = "col-md-6 col-xs-6 show-row">
+            <div class="row">
+              <div class="col-md-6">
+                <%= link_to image_tag(ep.show.poster_path, class: 'show-poster').html_safe, ep.show %>
+              </div>
+              <div class="col-md-6">
+                <strong><%= link_to ep.show.name, ep.show %></strong><br>
+                <%= ep.season_code %>
+                <div class="hidden-xs">
+                  <%= readable_timestamp ep.created_at %><br>
+                  <small><%= truncate ep.name, 90 %></small>
+                </div>
+              </div>
             </div>
           </div>
         <% end %>
