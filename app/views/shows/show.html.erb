@@ -2,16 +2,14 @@
   <%= javascript_include_tag "show_show.js" %>
 <% end %>
 
+<% content_for :navbar do %>
+  <li><%= link_to 'Destroy Show', @show, method: :delete, data: { confirm: 'Are you sure? This will delete all associated episodes and rules (but not files on the disk).' } %></li>
+<% end %>
+
 <% if notice %>
   <%= bootstrap_alert(:success, notice).html_safe %>
 <% end %>
 
-<span class="pull-right">
-  <%= link_to 'Destroy', @show, method: :delete, data: { confirm: 'Are you sure? This will delete all associated episodes and rules (but not files on the disk).' } %> |
-  <%= link_to 'Shows', shows_path %> |
-  <%= link_to 'Home', root_url %>
-</span>
-<br>
 <%= render partial: 'show_info', locals: { show: @show } %>
 
 <h4>Rules</h4>

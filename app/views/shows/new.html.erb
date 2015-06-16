@@ -1,4 +1,8 @@
-<h1>New Show</h1>
+<% content_for :navbar do %>
+  <li class="active"><%= link_to 'New Show', new_show_path %></li>
+<% end %>
+
+<h4>New Show</h4>
 
 <%= form_tag tvdb_search_shows_path, remote: true, class: 'form-horizontal' %>
   <div class="form-group">
@@ -6,7 +10,7 @@
       <div class="input-group">
         <input type="text" name='title' class="form-control" placeholder="Search for...">
         <span class="input-group-btn">
-          <%= submit_tag 'Go!', class: 'btn btn-default' %>
+          <%= submit_tag 'Go!', class: 'btn btn-default', disable_with: 'Loading...' %>
         </span>
       </div>
     </div>

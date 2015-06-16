@@ -17,13 +17,19 @@ class FeedsController < ApplicationController
 
   def create
     @feed = Feed.new(feed_params)
-    @feed.save
-    redirect_to feeds_url, notice: 'Feed was successfully created.'
+    if @feed.save
+      redirect_to feeds_url, notice: 'Feed was successfully created.'
+    else
+      render :edit
+    end
   end
 
   def update
-    @feed.update(feed_params)
-    redirect_to feeds_url, notice: 'Feed was successfully updated.'
+    if @feed.update(feed_params)
+      redirect_to feeds_url, notice: 'Feed was successfully updated.'
+    else
+      render :edit
+    end
   end
 
   def destroy

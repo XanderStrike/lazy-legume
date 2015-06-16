@@ -1,29 +1,23 @@
-<h1>Lazy Legume</h1>
+<h4>Recent Snatches</h4>
 
-<table width="100%" class="table">
-  <tr>
-    <td><%= link_to 'All Shows', shows_path, class: 'btn btn-success btn-block' %></td>
-    <td><%= link_to 'All Feeds', feeds_path, class: 'btn btn-success btn-block' %></td>
-  </tr>
-</table>
-
-<legend>Recently Snatched</legend>
-<table class='table'>
-  <thead>
-    <th>Show</th>
-    <th>Episode</th>
-    <th>Name</th>
-    <th>Time</th>
-  </thead>
-  <tbody>
-    <% @recent_episodes.each do |ep| %>
-      <tr>
-        <td><%= link_to "#{ image_tag(ep.show.poster_path, class: 'show-poster-thumb') }  #{ ep.show.name }".html_safe, ep.show %></td>
-        <td><%= ep.season_code %></td>
-        <td><%= truncate ep.name, 50 %></td>
-        <td><%= readable_timestamp ep.created_at %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-<%# @recent.map(&:name).join("<br>").html_safe %>
+<% @recent_episodes.each_slice(2) do |pair| %>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <% pair.each do |ep| %>
+          <div class="col-md-3 col-xs-3">
+            <%= link_to image_tag(ep.show.poster_path, class: 'show-poster').html_safe, ep.show %>
+          </div>
+          <div class="col-md-3 col-xs-3">
+            <strong><%= link_to ep.show.name, ep.show %></strong><br>
+            <%= ep.season_code %>
+            <div class="hidden-xs">
+              <%= readable_timestamp ep.created_at %><br>
+              <small><%= truncate ep.name, 90 %></small>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>

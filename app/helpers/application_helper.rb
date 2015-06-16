@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def orblank data
-    data || '--'
+    data.blank? ? '--' : data
   end
 end

@@ -1,27 +1,29 @@
-<h1>Shows</h1>
-<span class="pull-right">
-  <%= link_to 'New Show', new_show_path %> |
-  <%= link_to 'Home', root_url %>
-</span>
+<% content_for :navbar do %>
+  <li><%= link_to 'New Show', new_show_path, class: '' %></li>
+<% end %>
 
-<table class='table'>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th width='10%'>Episodes</th>
-      <th width='5%'></th>
-    </tr>
-  </thead>
+<h4>Shows</h4>
 
-  <tbody>
-    <% @shows.each do |show| %>
-      <tr>
-        <td>
-          <%= link_to "#{ image_tag(show.poster_path, class: 'show-poster-thumb') }  #{ show.name }".html_safe, show %>
-        </td>
-        <td><%= show.episodes.count %></td>
-        <td><%= link_to 'Destroy', show, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<% @shows.each_slice(2) do |pair| %>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <% pair.each do |show| %>
+          <div class="col-md-3 col-xs-3">
+            <%= link_to image_tag(show.poster_path, class: 'show-poster').html_safe, show %>
+          </div>
+          <div class="col-md-3 col-xs-3">
+            <strong><%= link_to show.name, show %></strong><br>
+            <div class="hidden-xs">
+              Airs <%= orblank show.airs_dayofweek %> at <%= orblank show.airs_time %><br>
+              <small>
+                Newest: <%= orblank show.episodes.order('created_at asc').first.try(:season_code) %><br>
+                <%= show.episodes.count %> episodes total
+              </small>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+<% end %>
