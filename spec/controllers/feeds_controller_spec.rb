@@ -55,6 +55,18 @@ RSpec.describe FeedsController, type: :controller do
       expect(assigns(:feed).url).to eq('http://dfasdfasdf.com')
       expect(response).to redirect_to(:feeds)
     end
+
+    it 'renders edit if the feed is invalid' do
+      params = {
+        feed: {
+          name: '',
+          url: ''
+        }
+      }
+
+      expect { put :create, params }.to change { Feed.count }.by(0)
+      expect(response).to render_template(:edit)
+    end
   end
 
   describe 'put update' do
@@ -71,6 +83,20 @@ RSpec.describe FeedsController, type: :controller do
       expect(assigns(:feed)).to eq(feed)
       expect(assigns(:feed).name).to eq('new name')
       expect(response).to redirect_to(:feeds)
+    end
+
+    it 'renders edit if the feed is invalid' do
+      feed = create(:feed)
+      params = {
+        id: feed.id,
+        feed: {
+          name: '',
+          url: ''
+        }
+      }
+
+      put :update, params
+      expect(response).to render_template(:edit)
     end
   end
 
