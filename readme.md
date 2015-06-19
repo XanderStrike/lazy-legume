@@ -47,3 +47,5 @@ Please do! Pull requests are always welcome.
 ### License
 
 MIT
+
+Favicon: Potato by Yi Chen from the [Noun Project](https://thenounproject.com/search/?q=potato&i=61071)
