@@ -35,8 +35,6 @@ class ScanRSS
     end
   end
 
-  private
-
   def self.get_xml feed
     open(feed, allow_redirections: :all)
   end

@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.thetvdb.com/api//530293E55310DAB2/series/77772/en.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 19 Jun 2015 03:14:53 GMT
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3b28e5f0e3241e7dc5c7ffd808dfa5e31434683693; expires=Sat, 18-Jun-16
+        03:14:53 GMT; path=/; domain=.thetvdb.com; HttpOnly
+      Last-Modified:
+      - Fri, 29 May 2015 14:00:38 GMT
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Fri, 19 Jun 2015 03:44:53 GMT
+      Cache-Control:
+      - public, max-age=1800
+      Content-Encoding:
+      - gzip
+      Cf-Cache-Status:
+      - HIT
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 1f8c10feb7bd0669-SJC
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VVS3PbNhC+51fs+NKLJUp+xZ5hmLGtJHYaxx3brY8eiFiR
+        cEiABUDJzPDH9wNBqXZPKS8Edvfb9y7Sjy91RWu2Thn9YW8+ne0R69xIpYsP
+        e38+fJ6c7tHH7F26EF5k74jSe7aKXTjiomT2Ht9BmuAUSee5N9Zl/YVZ0oXx
+        3mjuL41VWjPdWtsvTFvQH5aV6z8JW9GVqGujZX/F2nZ0I7Tkquqv2iVbT7/j
+        3PVf2YJ1a5ciL/tvorWCFix0fyMUTkL/VAXb/k5AZsO6v4eOoMm6UkBVmowu
+        jf4p654WortdPTL/yMB9S3gl9aBq3goM58i7NNqz9nfCI0ngv71Hmc/AeABZ
+        ZvOz05PJ7Gwym6fJK3KU+4KoOevPtaoBNxreRlJkX98sLp6uF5n3s9nZ7Ojw
+        JE22pCjwTeiiFQVnrNNkd4m87+w3xv7I7jstVS48yzTZ0t5IQNuOs9N8i6ZY
+        K95kj1zlpmbyhh5KpnO5RrCtZUdmRR6UL6ISLx3dwTr6iIpWSSbh6eEvegBw
+        imob2eYsCYWh3HJwhZZAmKHIY833f019KRwJWgnthfMqp9zonBs/pWtNB7PT
+        k31CHNSwyHnVViQqxdrRs2mt5i4Ega7zJTnUGuWikqtmwFqGVU0rY6PEbzDj
+        nHJeQP/+4MmoC21leSA0lcA9QLY39sCtQpWp7Bq20qo10OhDswnmaqFhVgY/
+        TMN6wEmD7gyUcIE966b0qOCjL5UjzRvynJfaVKboSGlkQEuoBFXUIUmtVn+3
+        DI5UayVbUcFzOAjvuV5WPBhrrIESPwYf6qC8C25hlqch8Y6RSUxWwaZ11KAV
+        OWR7AmpdK++jmuBhqQqIe0KVgyk48NyGSjCEHXsyrY8WodOumSqxGQwaK9mS
+        yK1xblAUIltZDI9iO6Wh+q40G1pyITQJZUPCEO89yotIAA6jREP93bCFgnGn
+        Xnw3WSHNdDib1Eq3HqEgTGO02yfbah30DAJSdAG8Qe2ndK9Q2OCI/h+dh+bN
+        S+QibysfauVb2HCNsEMzCapMJyp0xFjvISwUca3CfhXYYqPjyOpSaRy44hpm
+        B5uPSCtbHTXCN3QIVl3IHQLGcMYBcsbmHDT5ruIAi7PQjSncYJQmktdcAS7R
+        lMZXsBRnTzRerYc9RXmZJrsZjyM/brDT6SxN3myzeLk0rfbZ0ZYXr6MAjmFB
+        HgbkeI6c+Fxgq5yczQHdXV9zvwuI/0oJtvgBMGoYapB9wgrBehtvkSUkaNhs
+        8f+KdtFtqThF+lLgfbJZYUVTYldWyfCsTYrpc1OkyciNokg3uiuLvwQvW6H0
+        DnAYAaNMBFRYVG0jw9bL5keHB2ez98fHx2nymh4lGxMaIIs/N6qcR5UjLwr6
+        2j1tUHaWT6aSGbL+H0oU+ymaA+WfVMjCv+fwiifbZzxN4sv+D9AyBUUJCAAA
+    http_version: 
+  recorded_at: Fri, 19 Jun 2015 03:14:54 GMT
+recorded_with: VCR 2.9.3

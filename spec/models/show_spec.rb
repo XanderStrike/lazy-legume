@@ -35,4 +35,14 @@ RSpec.describe Show, type: :model do
       expect(show.poster_path).to eq('http://thetvdb.com/banners/test.jpg')
     end
   end
+
+  describe 'update_info' do
+    it 'fetches and updates all the info for an show' do
+      VCR.use_cassette("show-update-info") do
+        show = create(:show, tvdb_id: 77772, name: 'Incorrect Name')
+        show.update_info
+        expect(show.name).to eq('The Adventures of the Galaxy Rangers')
+      end
+    end
+  end
 end
