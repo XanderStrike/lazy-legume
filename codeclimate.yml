@@ -1,0 +1,9 @@
+languages:
+   Ruby: true
+   JavaScript: true
+exclude_paths:
+ - "public/*"
+ - "test/*"
+ - "app/assets/javascripts/html5shiv.js"
+ - "app/assets/javascripts/video.js"
+ - "app/assets/javascripts/flat-ui.js"
