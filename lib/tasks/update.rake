@@ -6,6 +6,6 @@ namespace :update do
 
   desc "Fetches current info for all added TV shows"
   task :metadata => :environment do
-
+    Show.all.map(&:update_info)
   end
 end
