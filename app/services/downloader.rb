@@ -4,7 +4,7 @@ class Downloader
       # TODO: make a setting for torrent save location
       puts "Saving #{ filename }"
 
-      `wget -O "torrents/#{ filename }" "#{ url }"`
+      `wget -O "torrents/#{ filename }" "#{ url }" 1> /dev/null 2> /dev/null`
 
       # TODO: download files the ruby way so we can handle errors
       #   File.open("torrents/#{filename}",'w') do |f|
