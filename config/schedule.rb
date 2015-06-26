@@ -4,5 +4,5 @@
 # http://en.wikipedia.org/wiki/Cron
 
 every 5.minutes do
-  rake "update:all", environment: :development
+  rake 'update:all', environment: :development
 end

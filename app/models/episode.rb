@@ -11,7 +11,9 @@ class Episode < ActiveRecord::Base
 
   def parse_season_code
     return unless season.blank? || ep_in_season.blank?
-    code = self.name.scan(/S\d{2}E\d{2}/i).tap {|c| return if c.empty? }.first.scan(/\d{2}/)
+    code = name.scan(/S\d{2}E\d{2}/i)
+    return if code.empty?
+    code = code.first.scan(/\d{2}/)
     self.season = code.first.to_i
     self.ep_in_season = code.last.to_i
   end
@@ -21,19 +23,18 @@ class Episode < ActiveRecord::Base
   end
 
   def torrent_name
-    "#{self.name.gsub(/\s/, '.')}.torrent"
+    "#{name.gsub(/\s/, '.')}.torrent"
   end
 
   def download
-    if self.valid?
-      success = Downloader.save_torrent(self.torrent_name, self.link)
-      self.update_attributes(downloaded: success)
-    end
+    return unless self.valid?
+    success = Downloader.save_torrent(torrent_name, link)
+    update_attributes(downloaded: success)
   end
 
   private
 
-  def zero_pad i
-    i.to_s.rjust(2, "0")
+  def zero_pad(i)
+    i.to_s.rjust(2, '0')
   end
 end

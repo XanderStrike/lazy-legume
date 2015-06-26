@@ -23,17 +23,18 @@ class RulesController < ApplicationController
   end
 
   private
-    def test
-      @found_eps = ScanRSS.new(@rule.feed.url).find_for_rule(@rule)
-      render :test
-    end
 
-    def set_rule_and_show
-      @rule = Rule.find(params[:id])
-      @show = @rule.show
-    end
+  def test
+    @found_eps = ScanRSS.new(@rule.feed.url).find_for_rule(@rule)
+    render :test
+  end
 
-    def rule_params
-      params.require(:rule).permit(:regex, :keywords, :quality, :show_id, :feed_id)
-    end
+  def set_rule_and_show
+    @rule = Rule.find(params[:id])
+    @show = @rule.show
+  end
+
+  def rule_params
+    params.require(:rule).permit(:regex, :keywords, :quality, :show_id, :feed_id)
+  end
 end

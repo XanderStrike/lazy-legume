@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe ScanRSS, :type => :model do
+RSpec.describe ScanRSS, type: :model do
   before(:each) do |example|
     allow(ScanRSS).to receive(:get_xml).and_return(feed_xml) unless example.metadata[:skip_stub]
   end
-  let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
+  let(:feed_xml) { IO.read(Rails.root.join('spec', 'fixtures', 'sample.xml')) }
   let(:items) { ScanRSS.new('test_url').parse(//) }
   let(:scan_service) { ScanRSS.new('test_url') }
   let(:rule) { create(:rule) }
@@ -65,7 +65,7 @@ RSpec.describe ScanRSS, :type => :model do
       VCR.use_cassette('scan-rss-get-xml') do
         xml = ScanRSS.get_xml('http://www.feedforall.com/sample.xml')
 
-        expect(xml.status).to eq(["200", "OK"])
+        expect(xml.status).to eq(%w(200 OK))
         expect(xml.meta['content-type']).to eq('application/xml')
       end
     end

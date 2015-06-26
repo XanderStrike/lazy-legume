@@ -17,14 +17,14 @@ RSpec.describe Show, type: :model do
 
   describe '.cast_list' do
     it 'parses the shitty stringified list and returns the first five' do
-      show = create(:show, actors: ["Emilia Clarke", "Peter Dinklage", "Kit Harington", "Nikolaj Coster-Waldau", "Lena Headey", "Sophie Turner", "Maisie Williams", "Gwendoline Christie", "Aidan Gillen", "Iain Glen", "Charles Dance", "Jerome Flynn", "Alfie Allen", "Isaac Hempstead-Wright", "Natalie Dormer", "John Bradley", "Conleth Hill", "Michelle Fairley", "Julian Glover", "Diana Rigg", "Ian McElhinney", "Ed Skrein", "Jonathan Pryce", "Alexander Siddig", "Nathalie Emmanuel", "Liam Cunningham", "Tom Wlaschiha", "Iwan Rheon", "Jacob Anderson", "Gemma Whelan", "Mark Addy", "Indira Varma", "Michiel Huisman", "Nonso Anozie", "Nell Tiger Free"].to_s)
+      show = create(:show, actors: ['Emilia Clarke', 'Peter Dinklage', 'Kit Harington', 'Nikolaj Coster-Waldau', 'Lena Headey', 'Sophie Turner', 'Maisie Williams', 'Gwendoline Christie', 'Aidan Gillen', 'Iain Glen', 'Charles Dance', 'Jerome Flynn', 'Alfie Allen', 'Isaac Hempstead-Wright', 'Natalie Dormer', 'John Bradley', 'Conleth Hill', 'Michelle Fairley', 'Julian Glover', 'Diana Rigg', 'Ian McElhinney', 'Ed Skrein', 'Jonathan Pryce', 'Alexander Siddig', 'Nathalie Emmanuel', 'Liam Cunningham', 'Tom Wlaschiha', 'Iwan Rheon', 'Jacob Anderson', 'Gemma Whelan', 'Mark Addy', 'Indira Varma', 'Michiel Huisman', 'Nonso Anozie', 'Nell Tiger Free'].to_s)
       expect(show.cast_list).to eq('Emilia Clarke, Peter Dinklage, Kit Harington, Nikolaj Coster-Waldau, Lena Headey, Sophie Turner')
     end
   end
 
   describe '.genre_list' do
     it 'parses the genre list' do
-      show = create(:show, genre: ["Adventure", "Drama", "Fantasy", "Variety"].to_s)
+      show = create(:show, genre: %w(Adventure Drama Fantasy Variety).to_s)
       expect(show.genre_list).to eq('Adventure<br>Drama<br>Fantasy<br>Variety')
     end
   end
@@ -38,8 +38,8 @@ RSpec.describe Show, type: :model do
 
   describe 'update_info' do
     it 'fetches and updates all the info for an show' do
-      VCR.use_cassette("show-update-info") do
-        show = create(:show, tvdb_id: 77772, name: 'Incorrect Name')
+      VCR.use_cassette('show-update-info') do
+        show = create(:show, tvdb_id: 77_772, name: 'Incorrect Name')
         show.update_info
         expect(show.name).to eq('The Adventures of the Galaxy Rangers')
       end

@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe Update, :type => :model do
+RSpec.describe Update, type: :model do
   before(:each) do
     allow(ScanRSS).to receive(:get_xml).and_return(feed_xml)
     allow(Downloader).to receive(:save_torrent).and_return(true)
   end
-  let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
+  let(:feed_xml) { IO.read(Rails.root.join('spec', 'fixtures', 'sample.xml')) }
 
   describe '#fetch_all' do
     it 'fetches and downloads all the new episodes for all the feeds' do

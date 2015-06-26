@@ -1,10 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe EpisodeFinder, :type => :model do
+RSpec.describe EpisodeFinder, type: :model do
   before(:each) do
     allow(ScanRSS).to receive(:get_xml).and_return(feed_xml)
   end
-  let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
+  let(:feed_xml) { IO.read(Rails.root.join('spec', 'fixtures', 'sample.xml')) }
   let(:scan_service) { ScanRSS.new('test_url') }
 
   describe '#find_new_for_feed' do
@@ -35,7 +35,7 @@ RSpec.describe EpisodeFinder, :type => :model do
 
     it 'returns a list of episodes' do
       feed = create(:feed)
-      rule = create(:rule, regex: 'computer', feed: feed)
+      create(:rule, regex: 'computer', feed: feed)
       eps = EpisodeFinder.find_new_for_feed(feed)
 
       expect(eps.first).to be_an(Episode)
@@ -44,7 +44,7 @@ RSpec.describe EpisodeFinder, :type => :model do
 
   describe '#find_new_for_rule' do
     it 'only finds new and valid episodes for a given rule' do
-      rule = create(:rule, regex: "solutions")
+      rule = create(:rule, regex: 'solutions')
       show = rule.show
 
       results = EpisodeFinder.find_new_for_rule(scan_service, rule)

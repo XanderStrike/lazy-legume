@@ -12,7 +12,7 @@ class Show < ActiveRecord::Base
   end
 
   def genre_list
-    parse_to_array(genre).join("<br>") rescue nil
+    parse_to_array(genre).join('<br>') rescue nil
   end
 
   def poster_path
@@ -30,7 +30,7 @@ class Show < ActiveRecord::Base
 
   private
 
-  def parse_to_array stringified_list
+  def parse_to_array(stringified_list)
     stringified_list.tr('[]"', '').split(', ')
   end
 end

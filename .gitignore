@@ -1,3 +1,4 @@
+public/assets
 *.torrent
 *.invalid
 *.log

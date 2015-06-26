@@ -1,6 +1,6 @@
 class EpisodeFinder
   class << self
-    def find_new_for_feed feed
+    def find_new_for_feed(feed)
       scan_service = ScanRSS.new(feed.url)
 
       [].tap do |episodes|
@@ -12,7 +12,7 @@ class EpisodeFinder
       end .flatten
     end
 
-    def find_new_for_rule scan_service, rule
+    def find_new_for_rule(scan_service, rule)
       episodes = scan_service.find_for_rule(rule)
       existing_episodes = rule.show.episodes
       episodes.select do |ep|
