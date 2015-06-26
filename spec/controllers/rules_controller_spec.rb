@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe RulesController, type: :controller do
   let(:show) { create(:show) }
   let(:feed) { create(:feed) }
-  let(:feed_xml) { IO.read(Rails.root.join("spec", "fixtures", "sample.xml")) }
+  let(:feed_xml) { IO.read(Rails.root.join('spec', 'fixtures', 'sample.xml')) }
   before(:each) do
     allow(ScanRSS).to receive(:get_xml).and_return(feed_xml)
   end
@@ -20,7 +20,8 @@ RSpec.describe RulesController, type: :controller do
   describe 'get create' do
     context 'as save' do
       it 'creates a rule with the given params' do
-        params = { rule: {
+        params = {
+          rule: {
             show_id: show.id,
             regex: 'test regex',
             feed_id: feed.id },
@@ -39,7 +40,8 @@ RSpec.describe RulesController, type: :controller do
 
     context 'as test' do
       it 'gets the episodes that match the rule and renders the test template' do
-        params = { rule: {
+        params = {
+          rule: {
             show_id: show.id,
             regex: '(computer|restaurant)',
             feed_id: feed.id },

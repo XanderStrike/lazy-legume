@@ -23,7 +23,7 @@ class ShowsController < ApplicationController
 
     @show = Show.create(par)
 
-    rule = Rule.build_for_show(@show, rule_params)
+    Rule.build_for_show(@show, rule_params)
 
     redirect_to @show, notice: 'Show was successfully created.'
   end
@@ -34,11 +34,12 @@ class ShowsController < ApplicationController
   end
 
   private
-    def set_show
-      @show = Show.find(params[:id])
-    end
 
-    def show_params
-      params.require(:show).permit(:tvdb_id, :name, :poster, :name, :overview, :actors, :first_aired, :rating, :status, :airs_dayofweek, :airs_time, :genre, rule: [:quality])
-    end
+  def set_show
+    @show = Show.find(params[:id])
+  end
+
+  def show_params
+    params.require(:show).permit(:tvdb_id, :name, :poster, :name, :overview, :actors, :first_aired, :rating, :status, :airs_dayofweek, :airs_time, :genre, rule: [:quality])
+  end
 end

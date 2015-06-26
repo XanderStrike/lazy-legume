@@ -7,7 +7,7 @@ RSpec.describe Rule, type: :model do
       feed = create(:feed)
 
       rule = nil
-      expect { rule = Rule.build_for_show(show, { quality: '(1080|720)' }) }.to change(Rule, :count).by(1)
+      expect { rule = Rule.build_for_show(show, quality: '(1080|720)') }.to change(Rule, :count).by(1)
       expect(rule.show).to eq(show)
       expect(rule.feed).to eq(feed)
       expect(rule.keywords).to eq('marvel s agents of s h i e l d 2013')
@@ -16,4 +16,3 @@ RSpec.describe Rule, type: :model do
     end
   end
 end
-

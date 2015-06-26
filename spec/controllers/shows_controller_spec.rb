@@ -37,7 +37,7 @@ RSpec.describe ShowsController, type: :controller do
 
   describe 'post tvdb_search' do
     it 'uses the tvdb service to search for the show' do
-      client_double = double()
+      client_double = double
       expect(client_double).to receive(:search).and_return('hello')
       expect(Tvdb).to receive(:new).and_return(client_double)
 
@@ -47,10 +47,9 @@ RSpec.describe ShowsController, type: :controller do
     end
   end
 
-
   describe 'put create' do
     it 'creates a new show and rule with the given params' do
-      feed = create(:feed)
+      create(:feed)
 
       params = {
         show: {

@@ -1,7 +1,7 @@
 class Update
   class << self
     def fetch_all
-      puts "Started update at #{ Time.now.to_s }"
+      puts "Started update at #{ Time.now }"
       new_eps = all_new_eps
       new_eps.map(&:download)
       puts "Done\n"

@@ -1,0 +1,28 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+
+Metrics/AbcSize:
+  Max: 40
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+Metrics/MethodLength:
+  Max: 20
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/ClassLength:
+  Exclude:
+    - test/**/* # long test classes are a good thing
