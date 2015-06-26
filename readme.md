@@ -14,7 +14,7 @@ While you can run Lazy Legume on any Linux or MacOS computer, it's designed for 
 
 **Web Interface**
 
-If you have Ruby installed simply clone the repository, install requirements, and set up your database:
+With Ruby installed simply clone the repository, install requirements, and set up your database:
 
     git clone https://github.com/XanderStrike/lazy-legume.git
     bundle install
@@ -42,7 +42,9 @@ You can add custom rules and view all downloaded episodes from the show page:
 
 ### Contributing
 
-Please do! Pull requests are always welcome.
+Fork the repository, open a pull request.
+
+Ensure all work is tested with `rspec`, linted with `rubocop`, and achieves a 4.0 on CodeClimate with 100% test coverage.
 
 ### License
 
