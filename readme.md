@@ -10,6 +10,8 @@ Lazy Legume is a **smart rss parser** designed for **tv show torrent feeds**. Yo
 
 While you can run Lazy Legume on any Linux or MacOS computer, it's designed for seedboxes and dedicated servers.
 
+[Here are some snazzy screenshots](http://imgur.com/a/MJ0u3) that describe the features in greater detail.
+
 ### Installation
 
 **Web Interface**
@@ -18,27 +20,25 @@ With Ruby installed simply clone the repository, install requirements, and set u
 
     git clone https://github.com/XanderStrike/lazy-legume.git
     bundle install
-    rake db:migrate
+    rake db:migrate db:seed
 
-You can then start your server with `rails s`.
+You can then start your server with `rails s`. Optionally change the port using `rails s -p <port number>`.
 
 **Automated Scans**
 
-Run `whenever` in the application directory to get a line to copy into your crontab. Type `crontab -e` to edit your crontab.
+Manual scans of the feeds can be performed with `rake scan:all`, but this is not recommended.
 
-Configure your torrent client to watch the directory `lazy-legume/torrents` to automatically download them.
+Run `whenever` in the application directory to get a line to copy into your crontab. Type `crontab -e` to edit your crontab. The default frequency is every 5 minutes, but you can modify `config/schedule.rb` to suit your needs.
+
+Configure your torrent client to watch the directory `lazy-legume/torrents` to automatically download them, or you can change the default torrent location within the Lazy Legume web interface.
 
 ### Usage
 
 Open the interface in a web browser by visiting `<server ip>:3000`. Start by adding a feed, if your tracker gives you an option, use the 'download' feed.
 
-Next, add a show by searching for its title and selecting your preferred quality:
-
-![New Show Page](http://imgur.com/OaPBobv.png)
+Next, add a show by searching for its title and selecting your preferred quality.
 
 You can add custom rules and view all downloaded episodes from the show page:
-
-![Show Show Page](http://i.imgur.com/FAEsbA6.png)
 
 ### Contributing
 
