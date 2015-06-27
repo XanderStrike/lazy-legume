@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150627020925) do
+ActiveRecord::Schema.define(version: 20150627014109) do
 
   create_table "episodes", force: true do |t|
     t.string   "name",                         null: false
