@@ -5,8 +5,6 @@ class AddSettings < ActiveRecord::Migration
       t.string :str
       t.integer :int
       t.boolean :bool
-
-      t.timestamps
     end
   end
 end

@@ -8,5 +8,7 @@ Lazylegume::Application.routes.draw do
   resources :rules, only: [:new, :create, :update, :destroy]
   resources :index, only: [:index]
 
+  resources :settings, only: [:index, :update]
+
   root to: 'index#index'
 end

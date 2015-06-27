@@ -1,0 +1,21 @@
+<% content_for :navbar do %>
+  <li><%= link_to 'New Show', new_show_path, class: '' %></li>
+<% end %>
+
+<h4>Settings</h4>
+
+<legend>Scanner Settings</legend>
+
+<%= form_for Setting.torrent_location, remote: true do |f| %>
+  <div class="row">
+    <div class="col-md-3">
+      Torrent Save Location:
+    </div>
+    <div class="col-md-8">
+      <%= f.text_field :str, class: 'form-control' %>
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Save', class: 'btn btn-success btn-block' %>
+    </div>
+  </div>
+<% end %>

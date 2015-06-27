@@ -1,0 +1,4 @@
+$('#edit_setting_<%= @setting.id %> .btn-success').attr('value', '✓');
+window.setTimeout(function() {
+  $('#edit_setting_<%= @setting.id %> .btn-success').attr('value', 'Save');
+}, 1000)
