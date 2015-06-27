@@ -20,6 +20,9 @@
         <li <%= request.fullpath.include?('feeds') ? 'class=active' : '' %>>
           <%= link_to 'Feeds', feeds_path %>
         </li>
+        <li <%= request.fullpath.include?('settings') ? 'class=active' : '' %>>
+          <%= link_to 'Settings', settings_path %>
+        </li>
       </ul>
       <!-- <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
