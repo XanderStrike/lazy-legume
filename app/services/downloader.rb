@@ -1,10 +1,9 @@
 class Downloader
   class << self
     def save_torrent(filename, url)
-      # TODO: make a setting for torrent save location
       puts "Saving #{ filename }"
 
-      `wget -O "torrents/#{ filename }" "#{ url }" 1> /dev/null 2> /dev/null`
+      `wget -O "#{Setting.torrent_location.str}/#{ filename }" "#{ url }" 1> /dev/null 2> /dev/null`
 
       # TODO: download files the ruby way so we can handle errors
       #   File.open("torrents/#{filename}",'w') do |f|
@@ -24,6 +23,7 @@ class Downloader
       # rescue URI::InvalidURIError
       #   puts "Could not download malformed url: #{url}"
       #   return false
+      true
     end
   end
 end
