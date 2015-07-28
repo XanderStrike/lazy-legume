@@ -10,5 +10,8 @@ Lazylegume::Application.routes.draw do
 
   resources :settings, only: [:index, :update]
 
+  get 'login', controller: :login, action: :index
+  post 'login', controller: :login
+
   root to: 'index#index'
 end
