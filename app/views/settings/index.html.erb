@@ -3,6 +3,26 @@
 <% end %>
 
 <h4>Settings</h4>
+<legend>General Settings</legend>
+<%= form_for Setting.authentication, remote: true do |f| %>
+  <div class="row">
+    <div class="col-md-3">
+      Password:
+    </div>
+    <div class="col-md-6">
+      <%= f.text_field :str, class: 'form-control' %>
+      <small>* Passwords are stored in plain text. Do not use important passwords.</small>
+    </div>
+    <div class="col-md-2">
+      <%= f.check_box :bool %>&nbsp; Enable
+    </div>
+    <div class="col-md-1">
+      <%= f.submit 'Save', class: 'btn btn-success btn-block' %>
+    </div>
+  </div>
+<% end %>
+
+<hr>
 
 <legend>Scanner Settings</legend>
 
@@ -19,3 +39,4 @@
     </div>
   </div>
 <% end %>
+
