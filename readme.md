@@ -21,7 +21,7 @@ With Ruby installed simply clone the repository, install requirements, and set u
     git clone https://github.com/XanderStrike/lazy-legume.git
     bundle install
     rake db:migrate db:seed
-
+adsfasdfadsfadsfasdf
 You can then start your server with `rails s`. Optionally change the port using `rails s -p <port number>`.
 
 **Automated Scans**
